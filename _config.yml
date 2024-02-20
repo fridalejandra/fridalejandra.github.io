@@ -21,8 +21,8 @@ repository               : "fridalejandra/fridalejandra.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_2404.png"
-  name             : "Frida Alejandra Perez"
+  avatar           : "IMG_2404.JPG"
+  name             : #"Frida Alejandra Perez"
   pronouns         : "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
   location         : "Los Angeles"
