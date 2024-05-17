@@ -1,14 +1,10 @@
 ---
-title: "UCLA Teaching Experience"
+title: "Teaching Experience"
 collection: teaching
 permalink: /teaching/ucla
-venue: "UCLA, Department of Geography"
-date: 2021-09-01
-location: "Los Angeles, USA"
+venue: "Department of Geography"
+location: "Los Angeles, CA, USA"
 ---
-
-This is a description of my teaching experience for the course Tropical Climatology (Geography 117).
-
 
 - **Teaching Associate, Tropical Climatology (Geography 117)**
   - Fall 2021, UCLA
@@ -24,6 +20,6 @@ This is a description of my teaching experience for the course Tropical Climatol
   - Fall 2023, UCLA
     
 - **Teaching Associate, Population Geography (Geography 158)**
-- Spring 2023, UCLA
+  - Spring 2023, UCLA
 
 
