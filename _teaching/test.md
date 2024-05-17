@@ -1,12 +1,16 @@
 ---
-layout: default
-title: "Test Page"
+title: "Tropical Climatology Teaching Experience"
+collection: teaching
+type: "Course"
+permalink: /teaching/tropical-climatology
+venue: "UCLA, Department of Geography"
+date: 2021-09-01
+location: "Los Angeles, USA"
 ---
 
-# Hello World
+This is a description of my teaching experience for the course Tropical Climatology (Geography 117).
 
-This is a test page.
-
-- Item 1
-- Item 2
-- Item 3
+### Course Sessions
+- Fall 2021
+- Winter 2022
+- Fall 2022
