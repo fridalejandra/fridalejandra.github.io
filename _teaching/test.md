@@ -27,6 +27,6 @@ Teaching Associate, People and Earth's Ecosystem (Geography 5)
     
 Teaching Associate, Population Geography (Geography 158)
 ======
-* Spring 2023, UCLA
+* Spring 2024, UCLA
 
 
