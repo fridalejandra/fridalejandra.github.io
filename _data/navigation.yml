@@ -6,7 +6,7 @@
 
 main:
   - title: "CV"
-      url: /files/PerezFrida_CV.pdf
+    url: /files/PerezFrida_CV.pdf
 
   - title: "Publications"
     url: https://scholar.google.com/citations?user=dWpgl-sAAAAJ&hl=en&scioq=frida+perez+antarctica+
