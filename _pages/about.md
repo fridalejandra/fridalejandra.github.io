@@ -18,11 +18,14 @@ When I’m not deep in research or perfecting my figures in Matplotlib, you can 
 
 Antarctic Sea Ice Phase 
 ======
-My current work focuses on the phase of Antarctic sea ice — the time it advances and retreats — using high-resolution daily sea ice data from 2012 to 2023. The study investigates the relationship between sea ice behavior and atmospheric circulation patterns, including the Southern Annular Mode, Semi-Annual Oscillation, and Zonal Wave 3, to understand the drivers of sea ice variability. By examining external forces like solar radiation alongside internal atmospheric mechanisms, the research aims to provide more accurate estimates of sea ice phase. These findings will help clarify how Antarctic sea ice responds to the atmosphere (or vice versa), contributing to improved predictions of sea ice trends and their impact on the global climate system.
+My current work focuses on the phase of Antarctic sea ice — the time it advances and retreats — using daily sea ice data from 2012 to 2023. The study investigates the relationship between sea ice seasonality and atmospheric circulation patterns, including the [Southern Annular Mode](https://www.antarcticglaciers.org/glaciers-and-climate/southern-annular-mode/), [Semi-Annual Oscillation](https://webspace.science.uu.nl/~broek112/home.php_files/Publications_MvdB/2000b_VanDenBroeke_IJC.pdf), and [Zonal Wave 3] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004GL020365), to understand the drivers of sea ice variability. By examining external forces like solar radiation alongside internal atmospheric mechanisms, the research aims to provide more accurate estimates of sea ice phase. These findings will help clarify how Antarctic sea ice responds to the atmosphere (or vice versa), contributing to improved predictions of sea ice trends and their impact on the global climate system.
 
-For example, when we look at the annual cycle of Antarctic sea ice averaged over space (left) the day when the ice begins to retreat (melt) and advance (freeze) appears coherent. 
+For example, when we look at the annual cycle of Antarctic sea ice averaged over space (bottom) the day when the ice begins to retreat (melt~September) and advance (freeze~February) appears coherent. 
 
-![Alt text](/images/AGU_nsidc_sie_cpolar.png){: .align-left width="500px"}
+![Alt text](/images/AGU_nsidc_sie_cpolar.png)
+
+#{: .align-left width="500px"}
+
 
 
 Sea Ice Thickness and Volume
