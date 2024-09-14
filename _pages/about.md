@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hiyooo"
+title: "Hey!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -18,20 +18,26 @@ When I’m not deep in research or perfecting my figures in Matplotlib, you can 
 
 Antarctic Sea Ice Phase 
 ======
-My current work focuses on the phase of Antarctic sea ice — the time it advances and retreats — using daily sea ice data from 2012 to 2023. The study investigates the relationship between sea ice seasonality and atmospheric circulation patterns, including the [Southern Annular Mode](https://www.antarcticglaciers.org/glaciers-and-climate/southern-annular-mode/), [Semi-Annual Oscillation](https://webspace.science.uu.nl/~broek112/home.php_files/Publications_MvdB/2000b_VanDenBroeke_IJC.pdf), and [Zonal Wave 3] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004GL020365), to understand the drivers of sea ice variability. By examining external forces like solar radiation alongside internal atmospheric mechanisms, the research aims to provide more accurate estimates of sea ice phase. These findings will help clarify how Antarctic sea ice responds to the atmosphere (or vice versa), contributing to improved predictions of sea ice trends and their impact on the global climate system.
+My current work focuses on the phase of Antarctic sea ice — the time it advances and retreats — using daily sea ice data from 2012 to 2023. The study investigates the relationship between sea ice seasonality and atmospheric circulation patterns, including the [Southern Annular Mode](https://www.antarcticglaciers.org/glaciers-and-climate/southern-annular-mode/), [Semi-Annual Oscillation](https://webspace.science.uu.nl/~broek112/home.php_files/Publications_MvdB/2000b_VanDenBroeke_IJC.pdf), and [Zonal Wave 3](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004GL020365), to understand the drivers of sea ice variability. By examining external forces like solar radiation alongside internal atmospheric mechanisms, the research aims to provide more accurate estimates of sea ice phase. These findings will help clarify how Antarctic sea ice responds to the atmosphere (or vice versa), contributing to improved predictions of sea ice trends and their impact on the global climate system.
 
 For example, when we look at the annual cycle of Antarctic sea ice averaged over space (bottom) the day when the ice begins to retreat (melt~September) and advance (freeze~February) appears coherent. 
 
 ![Alt text](/images/AGU_nsidc_sie_cpolar.png)
 
-#{: .align-left width="500px"}
 
 
 
 Sea Ice Thickness and Volume
 ======
-Data on sea ice thickness (SIT) is sparse and contains significant uncertainties, making it a crucial focus of my research. By utilizing satellite altimetry, specifically data from Envisat and CryoSat-2, I analyzed the spatial and temporal variation of SIT and sea ice volume (SIV) around Antarctica from 2003 to 2011. 
-* The study reveals significant regional variations, with the thickest ice near the continent and more variability along the sea ice edge. This work improves our understanding of how Antarctic sea ice regulates energy exchange between the ocean and atmosphere and informs more precise predictions of sea ice trends, which are critical for understanding the global climate system.
-* By examining the relationship between sea ice area (SIA) and SIT, I uncovered complex interactions, such as positive and negative correlations in different regions, which are vital for accurately estimating sea ice volume.
+Sea ice thickness (SIT) has historically been difficult to measure due to the challenges of acquiring data at depth. However, starting in the early 2000s, estimates of SIT from satellites like CryoSat and Envisat became available. These polar-orbiting satellites use radar altimetry to measure the ice. A radar signal is sent from the satellite, and the time it takes to return is used to calculate the height of the ice above sea level, known as the freeboard (see image below).
+![Alt text](/images/SIT_diagram.png)
 
 
+* _Freeboard_: The height of the sea ice and snow layers above sea level.
+* _Draft_: The part of the ice below sea level, which, when combined with the freeboard, allows us to estimate the total ice thickness.
+
+By using the freeboard measurement and the known density of ice, the overall thickness of the sea ice can be calculated. This method is similar to how sea level is measured using radar altimetry—by determining the time it takes for the radar pulse to return, we can calculate the distance from the satellite to the surface and isolate the freeboard by subtracting the satellite's orbit.
+
+Using satellite altimetry data from Envisat and CryoSat-2, I analyzed the spatial and temporal variation of SIT and sea ice volume (SIV) around Antarctica from 2003 to 2011.
+* _Key Findings_: The thickest ice was found near the continent, with more variability along the sea ice edge. This work enhances our understanding of how Antarctic sea ice regulates energy exchange between the ocean and atmosphere, improving predictions of sea ice trends, which are critical for assessing the global climate system.
+_SIT and SIA Relationship_: By examining the relationship between sea ice area (SIA) and SIT, I discovered complex interactions, with positive and negative correlations across different regions. These insights are crucial for accurately estimating sea ice volume.
