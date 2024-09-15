@@ -10,11 +10,11 @@ redirect_from:
 
 {% include base_path %}
 
-My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, specializing in polar climates and sea ice dynamics. My research broadly focuses on understanding the physical processes that govern sea ice variations and its role in climate systems. Using statistics and remote sensing, I explore the seasonal cycles of sea ice extent - the annual advance and retreat periods, to better predict future climate patterns.
+My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, specializing in polar climates and sea ice dynamics. My research broadly focuses on understanding the physical processes that govern sea ice variations and its role in climate systems. Using statistics and remote sensing, I explore the seasonal cycles of sea ice extent - the annual advance and retreat periods, to better predict future climate patterns. <img align="right" width="100" height="100" src="/images/icy.JPEG">
 
 As a graduate student, part of my role involves teaching. Being a first-generation immigrant and student has often made academia feel unfamiliar, but despite the challenges, it has been incredibly rewarding. I never imagined taking this path, but through my coursework and the guidance of mentors, I have been inspired to stay curious, ask questions, and persevere. I am now dedicated to bridging the gap between scientific research and education. Through my work, I hope to inspire other students to also pursue research.
 
-When I’m not deep in research or perfecting my figures in Matplotlib, you can find me cooking, jamming to post-punk with friends, watching thrillers, or enjoying the outdoors—most likely at the beach.
+<img align="left" width="100" height="100" src="/images/nino_rock.jpg"> When I’m not deep in research or perfecting my figures in Matplotlib, you can find me cooking, jamming to post-punk with friends, watching thrillers, or enjoying the outdoors—most likely at the beach. 
 
 Antarctic Sea Ice Phase 
 ======
@@ -39,7 +39,7 @@ Sea ice thickness (SIT) has historically been difficult to measure due to the ch
 By using the freeboard measurement and the known density of ice, the overall thickness of the sea ice can be calculated. This method is similar to how sea level is measured using radar altimetry—by determining the time it takes for the radar pulse to return, we can calculate the distance from the satellite to the surface and isolate the freeboard by subtracting the satellite's orbit.
 
 Using satellite altimetry data from Envisat and CryoSat-2, I analyzed the spatial and temporal variation of SIT and sea ice volume (SIV) around Antarctica from 2003 to 2011.
-* _Key Findings_: The thickest ice was found near the continent, with more variability along the sea ice edge. 
-* _SIT and SIA Relationship_: By examining the relationship between sea ice area (SIA) and SIT, I discovered complex interactions, with positive and negative correlations across different regions. These insights are crucial for accurately estimating sea ice volume.
+* **Key Findings**: The thickest ice was found near the continent, with more variability along the sea ice edge. 
+* **SIT and SIA Relationship**: By examining the relationship between sea ice area (SIA) and SIT, I discovered complex interactions, with positive and negative correlations across different regions. These insights are crucial for accurately estimating sea ice volume.
 
 This work enhances our understanding of how Antarctic sea ice regulates energy exchange between the ocean and atmosphere, improving predictions of sea ice trends, which are critical for assessing the global climate system.
