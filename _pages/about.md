@@ -10,11 +10,11 @@ redirect_from:
 
 {% include base_path %}
 
-My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, specializing in polar climates and sea ice dynamics. My research broadly focuses on understanding the physical processes that govern sea ice variations and its role in climate systems. Using statistics and remote sensing, I explore the seasonal cycles of sea ice extent - the annual advance and retreat periods, to better predict future climate patterns. <img align="right" width="100" height="100" src="/images/icy.JPEG">
+My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, specializing in polar climates and sea ice dynamics. My research broadly focuses on understanding the physical processes that govern sea ice variations and its role in climate systems. Using statistics and remote sensing, I explore the seasonal cycles of sea ice extent - the annual advance and retreat periods, to better predict future climate patterns.![Alt text](/images/icy.JPEG)
 
 As a graduate student, part of my role involves teaching. Being a first-generation immigrant and student has often made academia feel unfamiliar, but despite the challenges, it has been incredibly rewarding. I never imagined taking this path, but through my coursework and the guidance of mentors, I have been inspired to stay curious, ask questions, and persevere. I am now dedicated to bridging the gap between scientific research and education. Through my work, I hope to inspire other students to also pursue research.
 
-<img align="left" width="100" height="100" src="/images/nino_rock.jpg"> When I’m not deep in research or perfecting my figures in Matplotlib, you can find me cooking, jamming to post-punk with friends, watching thrillers, or enjoying the outdoors—most likely at the beach. 
+![Alt text](/images/nino_rock.jpg) When I’m not deep in research or perfecting my figures in Matplotlib, you can find me cooking, jamming to post-punk with friends, watching thrillers, or enjoying the outdoors—most likely at the beach. 
 
 Antarctic Sea Ice Phase 
 ======
@@ -23,6 +23,7 @@ My current work focuses on the phase of Antarctic sea ice — the time it advanc
 For example, when we look at the annual cycle of Antarctic sea ice averaged over space (bottom) the day when the ice begins to retreat (melt~September) and advance (freeze~February) appears coherent. 
 
 ![Alt text](/images/AGU_nsidc_sie_cpolar.png)
+![Alt text](/images/adv_output_white.gif) ![Alt text](/images/rtr_output_without.gif)
 
 
 
@@ -40,6 +41,6 @@ By using the freeboard measurement and the known density of ice, the overall thi
 
 Using satellite altimetry data from Envisat and CryoSat-2, I analyzed the spatial and temporal variation of SIT and sea ice volume (SIV) around Antarctica from 2003 to 2011.
 * **Key Findings**: The thickest ice was found near the continent, with more variability along the sea ice edge. 
-* **SIT and SIA Relationship**: By examining the relationship between sea ice area (SIA) and SIT, I discovered complex interactions, with positive and negative correlations across different regions. These insights are crucial for accurately estimating sea ice volume.
+#* **SIT and SIA Relationship**: By examining the relationship between sea ice area (SIA) and SIT, I discovered complex interactions, with positive and negative correlations across different regions. These insights are crucial for accurately estimating sea ice volume.
 
-This work enhances our understanding of how Antarctic sea ice regulates energy exchange between the ocean and atmosphere, improving predictions of sea ice trends, which are critical for assessing the global climate system.
+#This work enhances our understanding of how Antarctic sea ice regulates energy exchange between the ocean and atmosphere, improving predictions of sea ice trends, which are critical for assessing the global climate system.
