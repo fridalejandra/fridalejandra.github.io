@@ -27,7 +27,6 @@ For example, when we look at the annual cycle of Antarctic sea ice averaged over
 
 
 
-
 Sea Ice Thickness 
 ======
 Sea ice thickness (SIT) has historically been difficult to measure due to the challenges of acquiring data at depth. However, starting in the early 2000s, estimates of SIT from satellites like CryoSat and Envisat became available. These polar-orbiting satellites use radar altimetry to measure the ice. A radar signal is sent from the satellite, and the time it takes to return is used to calculate the height of the ice above sea level, known as the freeboard (see image below).
