@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 <!-- Make the first image a header image with full width -->
-<img src="/images/icy.JPEG" alt="Alt text" style="width: 50%;">
+<img src="/images/icy.JPEG" alt="Alt text" style="float: left; margin-right: 10px; width: 200px;">
 
 My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, specializing in polar climates and sea ice dynamics. My research broadly focuses on understanding the physical processes that govern sea ice variations and its role in climate systems. Using statistics and remote sensing, I explore the seasonal cycles of sea ice extent - the annual advance and retreat periods, to better predict future climate patterns.
 
@@ -31,7 +31,7 @@ For example, when we look at the annual cycle of Antarctic sea ice averaged over
 
 <!-- First image larger and centered above the two GIFs -->
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/images/AGU_nsidc_sie_cpolar.png" alt="Alt text" style="width: 400px;">
+  <img src="/images/AGU_nsidc_sie_cpolar.png" alt="Alt text" style="width: 100%;">
 </div>
 
 <!-- Container for the two GIFs, larger and side by side -->
