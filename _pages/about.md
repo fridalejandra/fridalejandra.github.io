@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-(/images/icy.JPEG){: .align-right width="300px"}
+
 My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, specializing in polar climates and sea ice dynamics. My research broadly focuses on understanding the physical processes that govern sea ice variations and its role in climate systems. Using statistics and remote sensing, I explore the seasonal cycles of sea ice extent - the annual advance and retreat periods, to better predict future climate patterns.
 
 
@@ -18,6 +18,7 @@ My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, spe
 
 As a graduate student, part of my role involves teaching. Being a first-generation immigrant and student has often made academia feel unfamiliar, but despite the challenges, it has been incredibly rewarding. I never imagined taking this path, but through my coursework and the guidance of mentors, I have been inspired to stay curious, ask questions, and persevere. I am now dedicated to bridging the gap between scientific research and education. Through my work, I hope to inspire other students to also pursue research.
 
+[](/images/nino_rock.jpg){: .align-right width="100px"}
 
 When I’m not deep in research or perfecting my figures in Matplotlib, you can find me cooking, jamming, watching thrillers, or enjoying the outdoors—most likely at the beach. 
 
