@@ -1,4 +1,4 @@
- ---
+---
 permalink: /
 title: "Hey!"
 excerpt: "About me"
@@ -31,18 +31,14 @@ For example, when we look at the annual cycle of Antarctic sea ice averaged over
 [](/images/AGU_nsidc_sie_cpolar.png)
 
 However, when we look at the timing of Advance (left) and Retreat (right), we can see that they are not homogenous over space nor time, especially timing of retreat. 
-<!-- Container for two GIFs, side by side in Jekyll markdown -->
-<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
-  <img src="{{ '/assets/images/adv_output_white.gif' | relative_url }}" alt="Advanced Output GIF" style="width: 300px;">
-  <img src="{{ '/assets/images/rtr_output_without.gif' | relative_url }}" alt="RTR Output GIF" style="width: 300px;">
-</div>
+![Advanced Output GIF](/images/adv_output_white.gif) ![RTR Output GIF](/images/rtr_output_without.gif)
+
 
 
 Sea Ice Thickness 
 ======
 Sea ice thickness (SIT) has historically been difficult to measure due to the challenges of acquiring data at depth. However, starting in the early 2000s, estimates of SIT from satellites like CryoSat and Envisat became available. These polar-orbiting satellites use radar altimetry to measure the ice. A radar signal is sent from the satellite, and the time it takes to return is used to calculate the height of the ice above sea level, known as the freeboard (see image below).
 
-<!-- Center this image -->
 [](/images/SIT_diagram.png)
 
 * _Freeboard_: The height of the sea ice and snow layers above sea level.
