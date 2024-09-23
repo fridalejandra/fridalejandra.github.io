@@ -36,10 +36,6 @@ However, when we look at the timing of Advance (left) and Retreat (right), we ca
 |:-:|:-:|
 |![Sea Ice Advance](/images/adv_output_white.gif h=750&w=1260)|![Sea Ice Retreat](/images/rtr_output_without.gif h=750&w=1260)|
 
-![Advanced Output GIF](/images/adv_output_white.gif) ![RTR Output GIF](/images/rtr_output_without.gif)
-
-
-
 Sea Ice Thickness 
 ======
 Sea ice thickness (SIT) has historically been difficult to measure due to the challenges of acquiring data at depth. However, starting in the early 2000s, estimates of SIT from satellites like CryoSat and Envisat became available. These polar-orbiting satellites use radar altimetry to measure the ice. A radar signal is sent from the satellite, and the time it takes to return is used to calculate the height of the ice above sea level, known as the freeboard (see image below).
