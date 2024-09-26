@@ -34,7 +34,8 @@ However, when we look at the timing of Advance (left) and Retreat (right), we ca
 
 |First Image|Second Image|
 |:-:|:-:|
-|![Sea Ice Advance](/images/adv_output_white.gif h=750&w=1260)|![Sea Ice Retreat](/images/rtr_output_without.gif h=750&w=1260)|
+|![Sea Ice Advance](/images/adv_output_white.gif)|![Sea Ice Retreat](/images/rtr_output_without.gif)|
+
 
 Sea Ice Thickness 
 ======
@@ -47,7 +48,6 @@ Sea ice thickness (SIT) has historically been difficult to measure due to the ch
 
 By using the freeboard measurement and the known density of ice, the overall thickness of the sea ice can be calculated. This method is similar to how sea level is measured using radar altimetry—by determining the time it takes for the radar pulse to return, we can calculate the distance from the satellite to the surface and isolate the freeboard by subtracting the satellite's orbit.
 
-![Vol GIF](/images/vol_output_white.gif)
 
 Using satellite altimetry data from Envisat and CryoSat-2, I analyzed the spatial and temporal variation of SIT and sea ice volume (SIV) around Antarctica from 2003 to 2011.
 * **Key Findings**: The thickest ice was found near the continent, with more variability along the sea ice edge. 
