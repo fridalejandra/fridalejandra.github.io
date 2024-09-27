@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: ""
-permalink: /teaching/
+title: "Teaching Experience"
+permalink: /_teaching/
 author_profile: true
 ---
 {% include base_path %}
