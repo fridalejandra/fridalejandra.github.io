@@ -5,7 +5,7 @@ permalink: /_teaching/
 author_profile: true
 ---
 {% include base_path %}
-======
+
 Teaching Experience
 ======
 * Biodiversity in a Changing World, Teaching Fellow, Fall 2024
