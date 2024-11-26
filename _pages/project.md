@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Research"
+permalink: /research/
+---
+
+
 ## My Project
 
 I applied machine learning techniques to investigate... Below is my report.
