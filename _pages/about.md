@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-{% include base_path %}
+{% include base_path %} 
 
 My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, specializing in polar climates and sea ice dynamics. My research broadly focuses on understanding the physical processes that govern sea ice variations and its role in climate systems. Using statistics and remote sensing, I explore the seasonal cycles of sea ice extent - the annual advance and retreat periods, to better predict future climate patterns.
 
