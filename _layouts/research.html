@@ -4,41 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css"> <!-- Link your CSS file -->
     <style>
-        /* Inline CSS for Fixed Navbar (can be moved to style.css) */
+        /* Basic Styles */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            padding-top: 60px; /* Prevent content from overlapping navbar */
+            padding-top: 60px; /* Prevent content from overlapping the navbar */
         }
 
+        /* Navigation Bar Styles */
         .navbar {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            background-color: #f8f9fa; /* Light background */
-            z-index: 1000; /* Keep it above other content */
+            background-color: #f8f9fa; /* Light background color */
+            z-index: 1000; /* Keep it on top */
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
-            padding: 10px 0;
+            padding: 10px 0; /* Space around links */
         }
 
         .navbar ul {
             display: flex;
-            justify-content: center;
+            justify-content: center; /* Center the navigation links */
             list-style: none;
             margin: 0;
             padding: 0;
         }
 
         .navbar ul li {
-            margin: 0 15px;
+            margin: 0 15px; /* Spacing between links */
         }
 
         .navbar ul li a {
             text-decoration: none;
-            color: #007bff; /* Link color */
+            color: #007bff; /* Blue links */
             font-weight: bold;
         }
 
@@ -46,15 +46,16 @@
             text-decoration: underline; /* Optional hover effect */
         }
 
+        /* Content Styles */
         .content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px; /* Add padding for better readability */
+            max-width: 800px; /* Limit the content width */
+            margin: 0 auto; /* Center the content */
+            padding: 20px; /* Space inside the content area */
         }
     </style>
 </head>
 <body>
-    <!-- Fixed Navigation Bar -->
+    <!-- Navigation Bar -->
     <header class="navbar">
         <nav>
             <ul>
@@ -67,7 +68,7 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
+    <!-- Page Content -->
     <div class="content">
         {{ content }}
     </div>
