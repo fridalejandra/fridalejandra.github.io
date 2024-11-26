@@ -4,16 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css"> <!-- Link your CSS file -->
+    <style>
+        /* Inline CSS for Fixed Navbar (can be moved to style.css) */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding-top: 60px; /* Prevent content from overlapping navbar */
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa; /* Light background */
+            z-index: 1000; /* Keep it above other content */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #007bff; /* Link color */
+            font-weight: bold;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline; /* Optional hover effect */
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px; /* Add padding for better readability */
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>{{ page.title }}</h1>
-        </header>
-        <main>
-            {{ content }}
-        </main>
+    <!-- Fixed Navigation Bar -->
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/files/PerezFrida_CV.pdf">CV</a></li>
+                <li><a href="https://scholar.google.com/citations?user=dWpgl-sAAAAJ&hl=en&scioq=frida+perez+antarctica+">Publications</a></li>
+                <li><a href="/teaching/">Teaching</a></li>
+                <li><a href="/research/">Research</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+        {{ content }}
     </div>
 </body>
 </html>
