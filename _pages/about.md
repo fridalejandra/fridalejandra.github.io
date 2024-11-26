@@ -32,9 +32,9 @@ For example, when we look at the annual cycle of Antarctic sea ice averaged over
 
 However, when we look at the timing of Advance (left) and Retreat (right), we can see that they are not homogenous over space nor time, especially timing of retreat. 
 
-|First Image|Second Image|
+|Advance|Retreat|
 |:-:|:-:|
-|![Sea Ice Advance](/images/adv_output_white.gif)|![Sea Ice Retreat](/images/rtr_output_without.gif)|
+|![Sea Ice Advance](/images/Advance_mean12-22_white.png)|![Sea Ice Retreat](/images/Retreat_mean12-22_white.png)|
 
 
 Sea Ice Thickness 
