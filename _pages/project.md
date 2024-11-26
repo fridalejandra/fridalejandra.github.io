@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: "Research"
 permalink: /research/
 ---
 
 
-## My Project
+## AOS 204 Final Project
 
 I applied machine learning techniques to investigate... Below is my report.
 
