@@ -1,8 +1,10 @@
 ---
 layout: archive
 title: "Teaching Experience"
+parmalink: /Teaching_091124/
 author_profile: true
 ---
+
 {% include base_path %}
 
 Teaching Experience
