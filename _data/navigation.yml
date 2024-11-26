@@ -15,7 +15,7 @@ main:
 #    url: /talks/
 
   - title: "Teaching"
-    url: /_teaching/Teaching_091124.md
+    url: /teaching/
     
 #  - title: "Portfolio"
 #    url: /portfolio/
@@ -25,4 +25,4 @@ main:
 
     
   - title: "Linear Regression Models"
-    url: /_AOS204/project.md
+    url: /AOS204/
