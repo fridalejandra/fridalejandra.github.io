@@ -15,7 +15,7 @@ main:
 #    url: /talks/
 
   - title: "Teaching"
-    url: /_teaching/Teaching_091124/
+    url: /teaching/
     
 #  - title: "Portfolio"
 #    url: /portfolio/
@@ -24,6 +24,6 @@ main:
 #    url: /year-archive/
 
     
-- title: Research
+- title: "Research"
   url: /research/
 
