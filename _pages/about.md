@@ -20,7 +20,7 @@ As a graduate student, part of my role involves teaching. Being a first-generati
 
 ![](/images/nino_rock.jpg){: .align-right width="300px"}
 
-When I’m not deep in research or perfecting my figures in Matplotlib, you can find me cooking, jamming, watching thrillers, or enjoying the outdoors—most likely at the beach. 
+When I’m not deep in research or obsessing over my figures in Matplotlib, you can find me cooking, jamming, watching thrillers, or enjoying the outdoors—most likely at the beach. 
 
 Antarctic Sea Ice Phase 
 ======
