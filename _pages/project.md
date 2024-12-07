@@ -43,6 +43,8 @@ The models were evaluated using two primary metrics. RMSE (Root Mean Squared Err
 
 ## Results
 
+## Results
+
 The performance of each model is summarized in **Table 1** below. RMSE values indicate the average error in predictions, while R² measures the proportion of variance in body mass explained by the model.
 
 **Table 1. Model Performance Metrics**
@@ -58,8 +60,16 @@ Random Forest identified `flipper_length_mm` and `species` as the most significa
 
 A Regression Error Characteristic (REC) curve was plotted to compare the fraction of predictions within varying error thresholds for all models. The ensemble model demonstrated consistently better performance, maintaining the highest fraction of predictions within smaller error margins.
 
-![REC Curve](assets/images/rec_curve.png "REC Curve showing model performance")
+![REC Curve](/images/rec_curve.png "REC Curve showing model performance across varying error thresholds")
 *(Figure 1: REC Curve showing model performance across varying error thresholds.)*
+
+### Visualization
+
+The **Actual vs Predicted** plot (Figure 2) compares the predictions of all models (Random Forest, Linear Regression, Ridge Regression, and Ensemble) on a single chart. The diagonal red line represents the ideal fit, where predictions perfectly match the actual values. Models with points closer to this line demonstrate better predictive performance.
+
+![Actual vs Predicted: Combined](/images/ActualvsPredicted_Ensemble.png "Actual vs Predicted for All Models")
+*(Figure 2: Actual vs Predicted for Random Forest, Linear Regression, Ridge Regression, and Ensemble.)*
+
 
 ---
 
