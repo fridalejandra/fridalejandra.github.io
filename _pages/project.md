@@ -18,6 +18,7 @@ Accurately predicting the biological traits of animals from physical and ecologi
 The objective of this research is to develop predictive models to classify penguin species based on their physical measurements and ecological attributes. The ability to accurately predict body weight is important for ecological monitoring and conservation projects, particularly in rapidly changing environments like the Antarctic [2]. To achieve this, I compare the performance of different machine learning models, including Random Forest and Ridge Regression [3, 4].
 
 In addition to model development, the study employs preprocessing techniques, such as handling missing data, encoding categorical variables, and scaling numerical features, which enhance model reliability and generalizability [5]. By interpreting the results of the predictive models, this study seeks to uncover key relationships between morphological traits and body weight, contributing to a broader understanding of penguin ecology and offering a replicable framework for similar ecological research.
+
 ---
 
 ## Data
@@ -43,8 +44,6 @@ The models were evaluated using two primary metrics. RMSE (Root Mean Squared Err
 
 ## Results
 
-## Results
-
 The performance of each model is summarized in **Table 1** below. RMSE values indicate the average error in predictions, while R² measures the proportion of variance in body mass explained by the model.
 
 **Table 1. Model Performance Metrics**
@@ -63,13 +62,10 @@ A Regression Error Characteristic (REC) curve was plotted to compare the fractio
 ![REC Curve](/images/rec_curve.png )
 *(Figure 1: REC Curve showing model performance across varying error thresholds.)*
 
-### Visualization
-
 The **Actual vs Predicted** plot (Figure 2) compares the predictions of all models (Random Forest, Linear Regression, Ridge Regression, and Ensemble) on a single chart. The diagonal red line represents the ideal fit, where predictions perfectly match the actual values. Models with points closer to this line demonstrate better predictive performance.
 
 ![Actual vs Predicted: Combined](/images/ActualvsPredicted_Ensemble.png)
 *(Figure 2: Actual vs Predicted for Random Forest, Linear Regression, Ridge Regression, and Ensemble.)*
-
 
 ---
 
@@ -94,7 +90,6 @@ Future work could explore the integration of additional ecological or environmen
 
 ---
 
-## References
 ## References
 
 1. Horst, A.M., Hill, A.P., Gorman, K.B. "Palmer Penguins: An Alternative to the Iris Dataset." R package version 0.1.0. [https://allisonhorst.github.io/palmerpenguins/](https://allisonhorst.github.io/palmerpenguins/)  
