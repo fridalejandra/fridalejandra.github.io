@@ -58,8 +58,8 @@ The performance of each model is summarized in **Table 1** below. RMSE values in
 Random Forest identified `flipper_length_mm` and `species` as the most significant predictors of body mass, followed by `bill_depth_mm`. Coefficients from Linear and Ridge Regression supported these findings, with Ridge Regression reducing coefficient magnitudes due to L2 regularization.
 
 A Regression Error Characteristic (REC) curve was plotted to compare the fraction of predictions within varying error thresholds for all models. The ensemble model demonstrated consistently better performance, maintaining the highest fraction of predictions within smaller error margins.
-![REC Curve](images/rec_curve.png "REC Curve showing model performance across varying error thresholds")
-*(Figure 1: REC Curve showing model performance across varying error thresholds.)*
+
+*(Include Figure 1: REC Curve showing model performance across varying error thresholds.)*
 
 ---
 
