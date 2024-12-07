@@ -15,10 +15,15 @@ permalink: /research/
 ## Introduction
 Accurately predicting the biological traits of animals from physical and ecological data is a key application of machine learning in ecological research. This study utilizes the Palmer Penguins dataset, which contains morphological and ecological data for three penguin species—Adélie (*Pygoscelis adeliae*), Gentoo (*Pygoscelis papua*), and Chinstrap (*Pygoscelis antarcticus*)—observed on islands in the Palmer Archipelago, Antarctica [1]. The dataset includes features such as bill length, bill depth, flipper length, body mass, and sex, along with categorical variables such as species and island location.
 
-The objective of this research is to develop predictive models to classify penguin species based on their physical measurements and ecological attributes. The ability to accurately predict body weight is important for ecological monitoring and conservation projects, particularly in rapidly changing environments like the Antarctic [2]. To achieve this, I compare the performance of different machine learning models, including Random Forest and Ridge Regression [3, 4].
+The objective of this study is to develop machine learning models to accurately predict penguin body mass based on morphological and ecological features derived from the Palmer Penguins dataset.  To achieve this, I compare the performance of different machine learning models, including Random Forest and Ridge Regression [3, 4].
 
 In addition to model development, the study employs preprocessing techniques, such as handling missing data, encoding categorical variables, and scaling numerical features, which enhance model reliability and generalizability [5]. By interpreting the results of the predictive models, this study seeks to uncover key relationships between morphological traits and body weight, contributing to a broader understanding of penguin ecology and offering a replicable framework for similar ecological research.
 
+This is a **supervised regression problem**, as the goal is to predict a continuous target variable, body mass (in grams), based on labeled input features. Accurately predicting body weight is important for ecological monitoring and conservation efforts, particularly in rapidly changing environments like the Antarctic [2]. 
+
+In addition to model development, the study employs preprocessing techniques, such as handling missing data [5], encoding categorical variables, and scaling numerical features, which enhance model reliability and generalizability. By interpreting the results of the predictive models, this study seeks to uncover key relationships between morphological traits and body weight, contributing to a broader understanding of penguin ecology and offering a replicable framework for similar ecological research [6].
+
+---
 ---
 
 ## Data
@@ -28,7 +33,6 @@ The numerical features include bill length (mm), bill depth (mm), flipper length
 
 Some missing values are present in the dataset, particularly in the 'sex' column, requiring imputation or removal to ensure data integrity [5, 7]. Additionally, numerical features exhibit varying scales, requiring standardization before model training [8]. The dataset’s size allows for efficient analysis while providing sufficient complexity to test a range of machine learning models.
 
-The target variable for this study is the body weight of the penguin, making this a supervised regression problem. By leveraging these features, this research aims to identify key predictors of body weight and assess the effectiveness of machine learning models in accurately predicting penguin body mass.
 
 ---
 
