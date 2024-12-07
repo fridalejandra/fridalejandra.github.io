@@ -35,8 +35,6 @@ Some missing values are present in the dataset, particularly in the 'sex' column
 
 ## Modeling
 
-## Modeling
-
 This study compares three machine learning models: Random Forest, Ridge Regression, and an Ensemble model. These models were chosen to evaluate both linear and non-linear relationships between features and body mass. Random Forest was selected for its ability to capture complex interactions between variables and robustness to multicollinearity, while Ridge Regression was used to evaluate linear relationships and mitigate overfitting through L2 regularization. The Ensemble model combined predictions from Random Forest and Ridge Regression using a weighted average, leveraging the strengths of both methods to improve performance and robustness.
 
 Ridge Regression, which applies L2 regularization, was selected over Lasso Regression because the focus of this study is on improving prediction accuracy rather than feature selection. Ridge Regression minimizes the sum of squared coefficients, which reduces the impact of multicollinearity without entirely zeroing out coefficients. Lasso Regression, which uses L1 regularization, is more suited for sparse datasets where feature selection is critical. Since all features in this dataset are considered biologically relevant and contribute to understanding penguin morphology, Ridge Regression was deemed more appropriate.
@@ -95,14 +93,15 @@ Future work could expand this analysis by incorporating additional ecological va
 
 ## References
 
-1. Horst, A.M., Hill, A.P., Gorman, K.B. "Palmer Penguins: An Alternative to the Iris Dataset." R package version 0.1.0. [https://allisonhorst.github.io/palmerpenguins/](https://allisonhorst.github.io/palmerpenguins/)  
-2. Gorman, K.B., Williams, T.D., Fraser, W.R. "Ecological Sexual Dimorphism and Environmental Variability Within a Community of Antarctic Penguins." *PLoS ONE*. 9(3): e90081, 2014.  
-3. Breiman, L. "Random Forests." *Machine Learning*. 45, 5–32, 2001.  
-4. Hoerl, A.E., Kennard, R.W. "Ridge Regression: Biased Estimation for Nonorthogonal Problems." *Technometrics*. 12(1): 55–67, 1970.  
-5. Little, R.J.A., Rubin, D.B. "Statistical Analysis with Missing Data." Wiley, 2002.  
-6. Fraser, W.R., Hofmann, E.E. "A Predator's Perspective on Causal Links Between Climate Change, Physical Forcing, and Ecosystem Response." *Marine Ecology Progress Series*. 265: 1-15, 2003.  
-7. Schafer, J.L. "Analysis of Incomplete Multivariate Data." *Chapman & Hall/CRC Monographs on Statistics & Applied Probability*. 1997.  
-8. Kuhn, M., Johnson, K. "Applied Predictive Modeling." Springer, 2013.  
+1. ChatGPT
+2. Horst, A.M., Hill, A.P., Gorman, K.B. "Palmer Penguins: An Alternative to the Iris Dataset." R package version 0.1.0. [https://allisonhorst.github.io/palmerpenguins/](https://allisonhorst.github.io/palmerpenguins/)  
+3. Gorman, K.B., Williams, T.D., Fraser, W.R. "Ecological Sexual Dimorphism and Environmental Variability Within a Community of Antarctic Penguins." *PLoS ONE*. 9(3): e90081, 2014.  
+4. Breiman, L. "Random Forests." *Machine Learning*. 45, 5–32, 2001.  
+5. Hoerl, A.E., Kennard, R.W. "Ridge Regression: Biased Estimation for Nonorthogonal Problems." *Technometrics*. 12(1): 55–67, 1970.  
+6. Little, R.J.A., Rubin, D.B. "Statistical Analysis with Missing Data." Wiley, 2002.  
+7. Fraser, W.R., Hofmann, E.E. "A Predator's Perspective on Causal Links Between Climate Change, Physical Forcing, and Ecosystem Response." *Marine Ecology Progress Series*. 265: 1-15, 2003.  
+8. Schafer, J.L. "Analysis of Incomplete Multivariate Data." *Chapman & Hall/CRC Monographs on Statistics & Applied Probability*. 1997.  
+9. Kuhn, M., Johnson, K. "Applied Predictive Modeling." Springer, 2013.  
 
 
 
