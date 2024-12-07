@@ -14,7 +14,7 @@ permalink: /research/
 
 Accurately predicting the biological traits of animals from physical and ecological data is a key application of machine learning in ecological research. This study utilizes the Palmer Penguins dataset, which contains morphological and ecological data for three penguin species—Adélie, Gentoo, and Chinstrap—observed on islands in the Palmer Archipelago, Antarctica. The dataset includes features such as bill length, bill depth, flipper length, body mass, and sex, along with categorical variables such as species and island location.
 
-The objective of this research is to develop predictive models to classify penguin species based on their physical measurements and ecological attributes. The ability to accurately predict body weight is important for ecological monitoring and conservation projects, particularly in rapidly changing environments like the Antarctic. To achieve this, I compare the performance of different machine learning models, including Random Forest and Ridge Regression.
+The objective of this research is to develop predictive models to predict penguin body weight. The ability to accurately predict body weight is important for ecological monitoring and conservation projects, particularly in rapidly changing environments like the Antarctic. To achieve this, I compare the performance of different machine learning models, including Random Forest and Ridge Regression.
 
 In addition to model development, the study employs preprocessing techniques, such as handling missing data, encoding categorical variables, and scaling numerical features, which enhance model reliability and generalizability. By interpreting the results of the predictive models, this study seeks to uncover key relationships between morphological traits and body weight, contributing to a broader understanding of penguin ecology and offering a replicable framework for similar ecological research.
 
@@ -32,15 +32,48 @@ The target variable for this study is the body weight of the penguin, making thi
 ## Modelling
 
 ### Feature Engineering
+Feature engineering included:
+- Encoding categorical variables: Species, island, and sex were encoded as dummy variables for machine learning compatibility.
+- Handling missing values: Missing values in the sex column were dropped to ensure data integrity.
+- Standardization: Numerical features such as bill length, bill depth, and flipper length were standardized where necessary for models like Ridge Regression.
 
-O
+### Model Selection 
+Random Forest Regressor:
+A tree-based ensemble method known for capturing non-linear relationships and feature interactions.
 
+Linear Regression:
+A baseline model to establish performance benchmarks.
+
+Ridge Regression:
+An extension of Linear Regression with L2 regularization to prevent over-fitting.
+
+Ensemble Model:
+Combines predictions from the three models using a weighted average, leveraging the strengths of each. In order to evaluate each model, RMSE (Root Mean Squared Error): Quantifies the average error in predictions, penalizing larger errors more heavily.
+R² Score: Measures the proportion of variance explained by the model, with a value close to 1 indicating a good fit.
 
 ## Results
+Model	RMSE	R² Score
+Random Forest	195.23	0.94
+Linear Regression	210.56	0.92
+Ridge Regression	208.47	0.93
+Ensemble	196.15	0.94
+Feature Importance
 
+Random Forest identified flipper_length_mm and species as the most significant predictors of body mass, followed by bill_depth_mm. Coefficients from Linear and Ridge Regression supported these findings, albeit with smaller magnitudes due to regularization in Ridge Regression.
+REC Curve
+
+A Regression Error Characteristic (REC) curve was plotted to compare the fraction of predictions within various error thresholds for all models. The ensemble model demonstrated consistently better performance, with the highest fraction of predictions falling within smaller error margins.
 
 ## Discussion
+Random Forest performed best overall, achieving the lowest RMSE and highest R². Its ability to handle non-linear relationships and interactions likely contributed to its superior performance.
+Linear and Ridge Regression provided interpretable models, with Ridge Regression showing reduced overfitting due to regularization.
+Ensemble Model combined the strengths of all models, achieving performance nearly equal to Random Forest but with greater robustness across error thresholds, as shown in the REC curve.
 
+- Key Predictors were: Flipper length (mm) was the most influential feature across all models, highlighting its strong correlation with penguin body mass. Species contributed significantly, reflecting interspecies differences in morphology and ecology.
+
+- Ecological Implications
+
+The results reinforce the utility of morphological traits in ecological monitoring. Predicting body mass with high accuracy can help researchers assess penguin health and adapt conservation strategies in response to environmental changes. The framework established here is adaptable to other species and ecosystems.
 
 ## Conclusion
 This study demonstrates the applicability of machine learning techniques to the prediction of body weight using the Palmer Penguins dataset. By leveraging morphological and ecological features, such as numerical data like bill length, bill depth, flipper length, body mass, and categorical data like island and sex, I developed models capable of predicting body weight for Adélie, Gentoo, and Chinstrap penguins.
@@ -52,7 +85,7 @@ Beyond predictive accuracy, this study underscores the value of machine learning
 Future work could explore the integration of additional ecological or environmental variables, as well as the application of these methods to larger or more complex datasets. By advancing the use of machine learning in ecological research, such studies can contribute to a deeper understanding of species differentiation and ecological dynamics.
 
 ## References
-[1] DALL-E 3
+[1] 
 
 [back](./)
 
