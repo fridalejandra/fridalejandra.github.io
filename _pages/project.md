@@ -4,85 +4,52 @@ title: "Research"
 permalink: /research/
 ---
 
-## Simulating the Annual Cycle of Antarctic Sea Ice
-
-This work explores machine learning models to predict Antarctic sea ice extent, with a focus on forecasting its minimum extents. [Access the data and code here.]
+## Predicting Penguin Body Mass 
+[Code](https://colab.research.google.com/drive/1J4wXknTVbelWBQYBGbdF_wsY-XkK__2m?usp=sharing)
+[Data](https://archive.ics.uci.edu/dataset/690/palmer+penguins-3) 
 
 ---
 
 ## Introduction
 
-Sea ice plays a pivotal role in the Earth's climate system. It reflects most incoming solar radiation, contributing to the maintenance of the equator-to-pole temperature gradient and mitigating global warming. Additionally, sea ice insulates the relatively warmer ocean from the frigid atmosphere, acting as a thermal barrier that regulates heat exchange between these two systems. It also serves as a protective shield for coastal glaciers, buffering them from ocean-driven melting.
+Accurately predicting the biological traits of animals from physical and ecological data is a key application of machine learning in ecological research. This study utilizes the Palmer Penguins dataset, which contains morphological and ecological data for three penguin species—Adélie, Gentoo, and Chinstrap—observed on islands in the Palmer Archipelago, Antarctica. The dataset includes features such as bill length, bill depth, flipper length, body mass, and sex, along with categorical variables such as species and island location.
 
-Changes in sea ice extent and thickness can disrupt thermohaline circulation, a critical component of the global ocean conveyor belt that drives climate patterns and influences oceanic heat distribution. Recent record lows in Antarctic sea ice extent underscore the urgency of improving predictive capabilities.
+The objective of this research is to develop predictive models to classify penguin species based on their physical measurements and ecological attributes. The ability to accurately predict body weight is important for ecological monitoring and conservation projects, particularly in rapidly changing environments like the Antarctic. To achieve this, I compare the performance of different machine learning models, including Random Forest and Ridge Regression.
 
-Despite advances in modeling, current approaches, such as CMIP6, face limitations. Models often misrepresent the timing of sea ice advance and retreat or fail to simulate realistic seasonal minimum and maximum extents. Machine learning offers a complementary approach by leveraging large datasets to uncover patterns and forecast future behavior more efficiently.
-
-This study aims to answer:
-- What features and factors are most influential in predicting sea ice?
-- Which model best captures Antarctic sea ice variability?
-- What is the predictive accuracy of machine learning models?
+In addition to model development, the study employs preprocessing techniques, such as handling missing data, encoding categorical variables, and scaling numerical features, which enhance model reliability and generalizability. By interpreting the results of the predictive models, this study seeks to uncover key relationships between morphological traits and body weight, contributing to a broader understanding of penguin ecology and offering a replicable framework for similar ecological research.
 
 ---
 
 ## Data
+This study uses the Palmer Station Long-Term Ecological Research (PAL-LTER) dataset, which provides morphological and ecological data for three penguin species: Adélie (Pygoscelis adeliae), Gentoo (Pygoscelis papua), and Chinstrap (Pygoscelis antarcticus). The data were collected from penguin populations on the Biscoe, Dream, and Torgersen islands in the Palmer Archipelago, Antarctica. The dataset consists of 344 observations and includes both numerical and categorical variables.
 
-The dataset includes daily sea ice extent (SIE) measurements from 1979 to 2023 obtained from the NSIDC, alongside daily ERA5 reanalysis data from ECMWF. Key features and target variables include:
+The numerical features include bill length (mm), bill depth (mm), flipper length (mm), and body mass (g), each of which are key morphological measurements for penguins. The categorical data includes species, sex, and island, along with the year of data collection. These features are important for body weight prediction and their ability to capture ecological variation among the penguins.
 
-| **Variable Name**                   | **Type**  | **Description**                                                                  | **Units** | **Spatial Resolution** | **Temporal Resolution**          |
-|-------------------------------------|-----------|----------------------------------------------------------------------------------|-----------|------------------------|----------------------------------|
-| **Mean Surface Latent Heat Flux**   | Numerical | Energy flux due to evaporation and condensation at the surface.                  | W/m²      | 0.25° x 0.25° (~28 km) | Hourly                           |
-| **Mean Surface Sensible Heat Flux** | Numerical | Heat exchange due to temperature differences between the surface and atmosphere. | W/m²      | 0.25° x 0.25° (~28 km) | Hourly                           |
-| **Sea Surface Temperature**         | Numerical | Temperature of the sea surface.                                                  | °K        | 0.25° x 0.25° (~28 km) | Hourly                           |
-| **Temperature at 850 hPa**          | Numerical | Atmospheric temperature at the 850 hPa pressure level.                           | °K        | 0.25° x 0.25° (~28 km) | Hourly                           |
-| **Surface Pressure**                | Numerical | Atmospheric pressure at the surface.                                             | Pa        | 0.25° x 0.25° (~28 km) | Hourly                           |
-| **Sea Ice Extent**                  | Numerical | Sea ice concentration derived from satellite microwave radiometers.              | 10⁶ km²   | 25 x 25 km             | Daily (every other day pre-1987) |
+Some missing values are present in the dataset, particularly in the 'sex' column, requiring imputation or removal to ensure data integrity. Additionally, numerical features exhibit varying scales, requiring standardization before model training. The dataset’s size allows for efficient analysis while providing sufficient complexity to test a range of machine learning models.
 
----
+The target variable for this study is the body weight of the penguin, making this a supervised classification problem. By leveraging these features, this research aims to identify key predictors of body weight and assess the effectiveness of machine learning models in accurately classifying penguin populations.
 
 ## Modelling
 
 ### Feature Engineering
 
-To enhance interpretability and performance, cyclical features represent the annual cycle of SIE:
+O
 
-```python
-import numpy as np
-SIE_DF['sin_day'] = np.sin(2 * np.pi * SIE_DF['Day_of_Year'] / 365)
-SIE_DF['cos_day'] = np.cos(2 * np.pi * SIE_DF['Day_of_Year'] / 365)
-
-```
-
-Another way to improve the performance of the model is to include lagged features. This is important because the climate system is not linear and the response of the ice to all forcings can occur at different timescales. The ocean has a longer memory, given waters high heat capacity, so effects might be seen in following seasons or even years. The atmosphere is a lot more ephemeral and its impacts can be seen at sub-monthly timescales.
-
-The following lag and lead times are considered for each variable: 
-- SIE :
-  - 6 month lag: 2 seasons (180 days). 
-  - 12 month lag: 1 year (365 days). 
-
-- Sea Surface Temperature (SST):
-  - 3 month lag: 1 season (90 days)
-  - 12 month lag: 1 year (365 days). 
-
-- Air Temperature:
-  - 1 week lag: short-term (7 days). 
-  - 1 month lag: med-term (30 days).
 
 ## Results
 
-Figure X shows... [description of Figure X].
 
 ## Discussion
 
-From Figure X, one can see that... [interpretation of Figure X].
 
 ## Conclusion
+This study demonstrates the applicability of machine learning techniques to the prediction of body weight using the Palmer Penguins dataset. By leveraging morphological and ecological features, such as numerical data like bill length, bill depth, flipper length, body mass, and categorical data like island and sex, I developed models capable of predicting body weight for Adélie, Gentoo, and Chinstrap penguins.
 
-Here is a brief summary. From this work, the following conclusions can be made:
-* first conclusion
-* second conclusion
+The results highlight the importance of data preprocessing, including handling missing values, encoding categorical variables, and standardizing numerical features, to ensure robust model performance. The application of different techniques, namely Random Forest and Ridge Regression, captured predictive relationships within the data.
 
-Here is how this work could be developed further in a future project.
+Beyond predictive accuracy, this study underscores the value of machine learning in uncovering ecological patterns and relationships that may inform biodiversity monitoring and conservation efforts. The framework established here can be adapted for similar ecological classification tasks, offering a replicable approach for future studies involving ecological datasets.
+
+Future work could explore the integration of additional ecological or environmental variables, as well as the application of these methods to larger or more complex datasets. By advancing the use of machine learning in ecological research, such studies can contribute to a deeper understanding of species differentiation and ecological dynamics.
 
 ## References
 [1] DALL-E 3
