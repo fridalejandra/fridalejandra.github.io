@@ -13,18 +13,15 @@ permalink: /research/
 ---
 
 ## Introduction
-
-Accurately predicting the biological traits of animals from physical and ecological data is a key application of machine learning in ecological research. This study utilizes the Palmer Penguins dataset, which contains morphological and ecological data for three penguin species—Adélie (Pygoscelis adeliae), Gentoo (Pygoscelis papua), and Chinstrap (Pygoscelis antarcticus)—observed on islands in the Palmer Archipelago, Antarctica [1]. The dataset includes features such as bill length, bill depth, flipper length, body mass, and sex, along with categorical variables such as species and island location.
+Accurately predicting the biological traits of animals from physical and ecological data is a key application of machine learning in ecological research. This study utilizes the Palmer Penguins dataset, which contains morphological and ecological data for three penguin species—Adélie (*Pygoscelis adeliae*), Gentoo (*Pygoscelis papua*), and Chinstrap (*Pygoscelis antarcticus*)—observed on islands in the Palmer Archipelago, Antarctica [1]. The dataset includes features such as bill length, bill depth, flipper length, body mass, and sex, along with categorical variables such as species and island location.
 
 The objective of this research is to develop predictive models to classify penguin species based on their physical measurements and ecological attributes. The ability to accurately predict body weight is important for ecological monitoring and conservation projects, particularly in rapidly changing environments like the Antarctic [2]. To achieve this, I compare the performance of different machine learning models, including Random Forest and Ridge Regression [3, 4].
 
 In addition to model development, the study employs preprocessing techniques, such as handling missing data, encoding categorical variables, and scaling numerical features, which enhance model reliability and generalizability [5]. By interpreting the results of the predictive models, this study seeks to uncover key relationships between morphological traits and body weight, contributing to a broader understanding of penguin ecology and offering a replicable framework for similar ecological research.
-
 ---
 
 ## Data
-
-This study uses the Palmer Station Long-Term Ecological Research (PAL-LTER) dataset, which provides morphological and ecological data for three penguin species: Adélie (Pygoscelis adeliae), Gentoo (Pygoscelis papua), and Chinstrap (Pygoscelis antarcticus) [1, 6]. The data were collected from penguin populations on the Biscoe, Dream, and Torgersen islands in the Palmer Archipelago, Antarctica. The dataset consists of 344 observations and includes both numerical and categorical variables.
+This study uses the Palmer Station Long-Term Ecological Research (PAL-LTER) dataset, which provides morphological and ecological data for three penguin species: Adélie (*Pygoscelis adeliae*), Gentoo (*Pygoscelis papua*), and Chinstrap (*Pygoscelis antarcticus*) [1, 6]. The data were collected from penguin populations on the Biscoe, Dream, and Torgersen islands in the Palmer Archipelago, Antarctica. The dataset consists of 344 observations and includes both numerical and categorical variables.
 
 The numerical features include bill length (mm), bill depth (mm), flipper length (mm), and body mass (g), each of which are key morphological measurements for penguins [1]. The categorical data includes species, sex, and island, along with the year of data collection. These features are important for body weight prediction and their ability to capture ecological variation among the penguins.
 
@@ -61,7 +58,8 @@ Random Forest identified `flipper_length_mm` and `species` as the most significa
 
 A Regression Error Characteristic (REC) curve was plotted to compare the fraction of predictions within varying error thresholds for all models. The ensemble model demonstrated consistently better performance, maintaining the highest fraction of predictions within smaller error margins.
 
-*(Include Figure 1: REC Curve showing model performance across varying error thresholds.)*
+![REC Curve](assets/images/rec_curve.png "REC Curve showing model performance")
+*(Figure 1: REC Curve showing model performance across varying error thresholds.)*
 
 ---
 
@@ -76,8 +74,7 @@ The results reinforce the utility of morphological traits in ecological monitori
 ---
 
 ## Conclusion
-
-This study demonstrates the applicability of machine learning techniques to the prediction of body weight using the Palmer Penguins dataset. By leveraging morphological and ecological features, such as numerical data like bill length, bill depth, flipper length, and categorical data like species and sex, I developed models capable of predicting body weight for Adélie, Gentoo, and Chinstrap penguins.
+This study demonstrates the applicability of machine learning techniques to the prediction of body weight using the Palmer Penguins dataset. By leveraging morphological and ecological features, such as numerical data like bill length, bill depth, flipper length, body mass, and categorical data like island and sex, I developed models capable of predicting body weight for Adélie, Gentoo, and Chinstrap penguins.
 
 The results highlight the importance of data preprocessing, including handling missing values, encoding categorical variables, and standardizing numerical features, to ensure robust model performance [5, 7, 8]. The application of different techniques, namely Random Forest and Ridge Regression, captured predictive relationships within the data [3, 4].
 
@@ -88,13 +85,17 @@ Future work could explore the integration of additional ecological or environmen
 ---
 
 ## References
+## References
 
-[1] Horst, A.M., Hill, A.P., Gorman, K.B. "Palmer Penguins: An Alternative to the Iris Dataset." R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/  
-[2] Gorman, K.B., Williams, T.D., Fraser, W.R. "Ecological Sexual Dimorphism and Environmental Variability Within a Community of Antarctic Penguins." PLoS ONE. 9(3): e90081, 2014.  
-[3] Breiman, L. "Random Forests." Machine Learning. 45, 5–32, 2001.  
-[4] Hoerl, A.E., Kennard, R.W. "Ridge Regression: Biased Estimation for Nonorthogonal Problems." Technometrics. 12(1): 55–67, 1970.  
-[5] Little, R.J.A., Rubin, D.B. "Statistical Analysis with Missing Data." Wiley, 2002.  
-[6] Fraser, W.R., Hofmann, E.E. "A Predator's Perspective on Causal Links Between Climate Change, Physical Forcing, and Ecosystem Response." Marine Ecology Progress Series. 265: 1-15, 2003.  
+1. Horst, A.M., Hill, A.P., Gorman, K.B. "Palmer Penguins: An Alternative to the Iris Dataset." R package version 0.1.0. [https://allisonhorst.github.io/palmerpenguins/](https://allisonhorst.github.io/palmerpenguins/)  
+2. Gorman, K.B., Williams, T.D., Fraser, W.R. "Ecological Sexual Dimorphism and Environmental Variability Within a Community of Antarctic Penguins." *PLoS ONE*. 9(3): e90081, 2014.  
+3. Breiman, L. "Random Forests." *Machine Learning*. 45, 5–32, 2001.  
+4. Hoerl, A.E., Kennard, R.W. "Ridge Regression: Biased Estimation for Nonorthogonal Problems." *Technometrics*. 12(1): 55–67, 1970.  
+5. Little, R.J.A., Rubin, D.B. "Statistical Analysis with Missing Data." Wiley, 2002.  
+6. Fraser, W.R., Hofmann, E.E. "A Predator's Perspective on Causal Links Between Climate Change, Physical Forcing, and Ecosystem Response." *Marine Ecology Progress Series*. 265: 1-15, 2003.  
+7. Schafer, J.L. "Analysis of Incomplete Multivariate Data." *Chapman & Hall/CRC Monographs on Statistics & Applied Probability*. 1997.  
+8. Kuhn, M., Johnson, K. "Applied Predictive Modeling." Springer, 2013.  
+
 
 [back](./)
 
