@@ -1,7 +1,9 @@
+---
 layout: research
 title: "Research"
 permalink: /research/
 ---
+
 
 ## Predicting Penguin Body Mass
 
