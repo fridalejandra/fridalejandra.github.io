@@ -60,14 +60,14 @@ Random Forest identified `flipper_length_mm` and `species` as the most significa
 
 A Regression Error Characteristic (REC) curve was plotted to compare the fraction of predictions within varying error thresholds for all models. The ensemble model demonstrated consistently better performance, maintaining the highest fraction of predictions within smaller error margins.
 
-![REC Curve](/images/rec_curve.png "REC Curve showing model performance across varying error thresholds")
+![REC Curve](/images/rec_curve.png )
 *(Figure 1: REC Curve showing model performance across varying error thresholds.)*
 
 ### Visualization
 
 The **Actual vs Predicted** plot (Figure 2) compares the predictions of all models (Random Forest, Linear Regression, Ridge Regression, and Ensemble) on a single chart. The diagonal red line represents the ideal fit, where predictions perfectly match the actual values. Models with points closer to this line demonstrate better predictive performance.
 
-![Actual vs Predicted: Combined](/images/ActualvsPredicted_Ensemble.png "Actual vs Predicted for All Models")
+![Actual vs Predicted: Combined](/images/ActualvsPredicted_Ensemble.png)
 *(Figure 2: Actual vs Predicted for Random Forest, Linear Regression, Ridge Regression, and Ensemble.)*
 
 
