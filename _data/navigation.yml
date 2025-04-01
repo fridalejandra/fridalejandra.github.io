@@ -16,13 +16,17 @@ main:
 
   - title: "Teaching"
     url: /teaching/
-    
-  - title: "ML Project"
-    url: /research/
+
+  - title: Machine Learning
+    url: /ml/
+
+
+#  - title: "ML Project"
+#    url: /research/
 
 
 
-      #
+
 #  - title: "Blog Posts"
 #    url: /year-archive/
 
