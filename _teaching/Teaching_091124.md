@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-- Teaching Experience
-- ======
 * Earth's Physical Environment, Teaching Fellow, Winter 2025
 * Biodiversity in a Changing World, Teaching Fellow, Fall 2024
 * Population Geography, Teaching Fellow, Spring 2024
