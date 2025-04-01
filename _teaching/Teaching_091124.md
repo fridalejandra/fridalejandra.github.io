@@ -1,13 +1,15 @@
 ---
 layout: archive
 permalink: /teaching/
+title: Teaching Experience
 author_profile: true
 ---
 
 {% include base_path %}
 
-Teaching Experience
-======
+- Teaching Experience
+- ======
+* Earth's Physical Environment, Teaching Fellow, Winter 2025
 * Biodiversity in a Changing World, Teaching Fellow, Fall 2024
 * Population Geography, Teaching Fellow, Spring 2024
 * People and Earth's Ecosystem, Teaching Associate, Fall 2023
