@@ -1,7 +1,8 @@
 ---
-layout: research
-title: "Research"
-permalink: /research/
+layout: archive
+title: "Machine Learning"
+permalink: /ml/
+author_profile: true
 ---
 
 ## Predicting Penguin Body Mass
@@ -103,7 +104,4 @@ Future work could expand this analysis by incorporating additional ecological va
 8. Schafer, J.L. "Analysis of Incomplete Multivariate Data." *Chapman & Hall/CRC Monographs on Statistics & Applied Probability*. 1997.  
 9. Kuhn, M., Johnson, K. "Applied Predictive Modeling." Springer, 2013.  
 
-
-
-[back](./)
 
