@@ -13,6 +13,9 @@ excerpt: "Used Random Forest, Ridge Regression, and Ensemble models to predict p
 [Data](https://archive.ics.uci.edu/dataset/690/palmer+penguins-3)  
 
 ---
+![Test Image](/images/rec_curve.png)
+
+**Figure X.** Test caption directly beneath the image.
 
 ## Introduction
 
