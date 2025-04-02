@@ -67,15 +67,17 @@ A Regression Error Characteristic (REC) curve (Figure 1) was plotted to compare 
 The REC curve (Figure 1) compares the fraction of predictions within varying error thresholds for all models. The Ensemble model consistently outperforms other models across most error thresholds, maintaining the highest fraction of predictions within smaller error margins. This reflects its robustness and ability to minimize large deviations.
 The Random Forest model initially performs well but demonstrates higher error rates at broader thresholds compared to the Ensemble model. This indicates that while Random Forest captures non-linear relationships effectively, it produces larger prediction errors for some cases. Ridge Regression and Linear Regression perform comparably, but their curves remain slightly below the Ensemble and Random Forest models.
 
-<figure>
-  <img src="/images/rec_curve.png" alt="REC Curve showing model performance across varying error thresholds.">
-  <figcaption><strong>Figure 1.</strong> REC Curve showing model performance across varying error thresholds.</figcaption>
+<figure style="text-align: center;">
+  <img src="/images/rec_curve.png" alt="REC Curve showing model performance across varying error thresholds." style="max-width: 100%; height: auto;">
+  <figcaption style="font-style: italic; font-size: 0.95em; color: #555;"><strong>Figure 1.</strong> REC curve showing model performance across varying error thresholds.</figcaption>
 </figure>
 
-<figure>
-  <img src="/images/ActualvsPredicted_Ensemble.png" alt="Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models.">
-  <figcaption><strong>Figure 2.</strong> Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models.</figcaption>
+
+<figure style="text-align: center;">
+  <img src="/images/ActualvsPredicted_Ensemble.png" alt="Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models." style="max-width: 100%; height: auto;">
+  <figcaption style="font-style: italic; font-size: 0.95em; color: #555;"><strong>Figure 2.</strong> Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models.</figcaption>
 </figure>
+
 
 [//]: # (![]&#40;/images/rec_curve.png&#41;)
 
