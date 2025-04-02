@@ -72,6 +72,7 @@ The Random Forest model initially performs well but demonstrates higher error ra
 | *Figure 1. REC curve showing model performance across varying error thresholds.* |
 
 
+
 [//]: # (![]&#40;/images/rec_curve.png&#41;)
 
 [//]: # (*&#40;Figure 1: REC Curve showing model performance across varying error thresholds.&#41;*)
