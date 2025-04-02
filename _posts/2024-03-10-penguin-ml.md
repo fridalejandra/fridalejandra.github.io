@@ -68,12 +68,15 @@ The REC curve (Figure 1) compares the fraction of predictions within varying err
 The Random Forest model initially performs well but demonstrates higher error rates at broader thresholds compared to the Ensemble model. This indicates that while Random Forest captures non-linear relationships effectively, it produces larger prediction errors for some cases. Ridge Regression and Linear Regression perform comparably, but their curves remain slightly below the Ensemble and Random Forest models.
 
 ![REC Curve showing model performance across varying error thresholds.](/images/Rec_Curve.png)
-
-*Figure 1. REC Curve showing model performance across varying error thresholds.*
+ 
+[//]: # (*Figure 1. REC Curve showing model performance across varying error thresholds.*)
 
 The Actual vs Predicted plot (Figure 2) compares the predictions of all models (Random Forest, Ridge Regression, and Ensemble) on a single chart. The diagonal line represents the ideal fit, where predictions perfectly match the actual values. Models with points closer to this line demonstrate better predictive performance.
-![Actual vs Predicted](/images/ActualvsPredicted_ENSBL.png)
-**Figure 2.** Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models.
+
+![Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models.](/images/ActualvsPredicted_Ensemble.png)
+
+[//]: # (**Figure 2.** Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models.)
+
 
 
 ---
