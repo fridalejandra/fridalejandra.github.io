@@ -71,7 +71,7 @@ The Random Forest model initially performs well but demonstrates higher error ra
 
 The Actual vs Predicted plot (Figure 2) compares the predictions of all models (Random Forest, Ridge Regression, and Ensemble) on a single chart. The diagonal line represents the ideal fit, where predictions perfectly match the actual values. Models with points closer to this line demonstrate better predictive performance.
 
-![Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models.](/images/ActualvsPredicted_Ensemble.png){: .align-center width="700px"}
+![Actual vs Predicted plot for Random Forest, Ridge Regression, and Ensemble models.](/images/ActualvsPredicted_ENSBL.png){: .align-center width="700px"}
 
 ---
 
