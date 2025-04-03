@@ -2,7 +2,7 @@
 layout: single
 title: "Predicting Penguin Body Mass"
 date: 2024-03-10
-categories: [ml]
+tags: [ml]
 author_profile: true
 excerpt: "Used Random Forest, Ridge Regression, and Ensemble models to predict penguin body mass using morphological features."
 ---

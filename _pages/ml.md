@@ -9,6 +9,8 @@ These are select projects exploring ecological and climate applications of machi
 
 
 
-{% for post in site.categories.ml %}
+{% assign ml_posts = site.tags.ml %}
+{% for post in ml_posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
+
