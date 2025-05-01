@@ -10,13 +10,12 @@ redirect_from:
 
 {% include base_path %} 
 
-Hi, I’m Frida — a Ph.D. candidate in Geography at UCLA, where I study polar climates with a focus on Antarctic sea ice. My research explores the physical processes behind sea ice variability, particularly the seasonal cycles of sea ice advance and retreat. I use statistics and remote sensing to better understand how these cycles are shaped by both external (e.g., solar forcing) and internal (e.g., atmospheric circulation) influences — with the broader goal of improving predictions of future climate behavior.
+I’m Frida — a Ph.D. candidate in Geography at UCLA, where I study polar climates with a focus on Antarctic sea ice. My research explores the physical processes behind sea ice variability, particularly the seasonal cycles of sea ice advance and retreat. I use statistics and remote sensing to better understand how these cycles are shaped by both external (e.g., solar forcing) and internal (e.g., atmospheric circulation) influences — with the broader goal of improving predictions of future climate behavior.
 
 ![](/images/icy.JPEG){: .align-left width="300px"}
 
 
 As a graduate student, I’m also deeply involved in teaching. Being a first-generation immigrant and college student, academia wasn’t always familiar territory. But through the support of mentors and the curiosity sparked by coursework, I’ve grown committed to bridging the gap between research and education. I hope to inspire others — especially those from underrepresented backgrounds — to see themselves in science and pursue research that excites them.
-![](/images/nino_rock.jpg){: .align-right width="300px"}
 
 
 Antarctic Sea Ice Phase 
