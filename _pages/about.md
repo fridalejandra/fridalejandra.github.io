@@ -10,32 +10,30 @@ redirect_from:
 
 {% include base_path %} 
 
-My name is Frida, and I am currently a Ph.D. candidate in Geography at UCLA, specializing in polar climates and sea ice dynamics. My research broadly focuses on understanding the physical processes that govern sea ice variations and its role in climate systems. Using statistics and remote sensing, I explore the seasonal cycles of sea ice extent - the annual advance and retreat periods, to better predict future climate patterns.
-
+Hi, I’m Frida — a Ph.D. candidate in Geography at UCLA, where I study polar climates with a focus on Antarctic sea ice. My research explores the physical processes behind sea ice variability, particularly the seasonal cycles of sea ice advance and retreat. I use statistics and remote sensing to better understand how these cycles are shaped by both external (e.g., solar forcing) and internal (e.g., atmospheric circulation) influences — with the broader goal of improving predictions of future climate behavior.
 
 ![](/images/icy.JPEG){: .align-left width="300px"}
 
 
-As a graduate student, part of my role involves teaching. Being a first-generation immigrant and student has often made academia feel unfamiliar, but despite the challenges, it has been incredibly rewarding. I never imagined taking this path, but through my coursework and the guidance of mentors, I have been inspired to stay curious, ask questions, and persevere. I am now dedicated to bridging the gap between scientific research and education. Through my work, I hope to inspire other students to also pursue research.
-
+As a graduate student, I’m also deeply involved in teaching. Being a first-generation immigrant and college student, academia wasn’t always familiar territory. But through the support of mentors and the curiosity sparked by coursework, I’ve grown committed to bridging the gap between research and education. I hope to inspire others — especially those from underrepresented backgrounds — to see themselves in science and pursue research that excites them.
 ![](/images/nino_rock.jpg){: .align-right width="300px"}
 
-When I’m not deep in research or obsessing over my figures in Matplotlib, you can find me cooking, jamming, watching thrillers, or enjoying the outdoors—most likely at the beach. 
 
 Antarctic Sea Ice Phase 
 ======
-My current work focuses on the phase of Antarctic sea ice — the time it advances and retreats — using daily sea ice data from 2012 to 2023. The study investigates the relationship between sea ice seasonality and atmospheric circulation patterns, including the [Southern Annular Mode](https://www.antarcticglaciers.org/glaciers-and-climate/southern-annular-mode/), [Semi-Annual Oscillation](https://webspace.science.uu.nl/~broek112/home.php_files/Publications_MvdB/2000b_VanDenBroeke_IJC.pdf), and [Zonal Wave 3](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004GL020365), to understand the drivers of sea ice variability. By examining external forces like solar radiation alongside internal atmospheric mechanisms, the research aims to provide more accurate estimates of sea ice phase. These findings will help clarify how Antarctic sea ice responds to the atmosphere (or vice versa), contributing to improved predictions of sea ice trends and their impact on the global climate system.
+My current work focuses on the phase of Antarctic sea ice — the time it advances and retreats — using daily sea ice data from 1979 to present. I investigate how this timing is influenced by large-scale atmospheric patterns like the [Southern Annular Mode](https://www.antarcticglaciers.org/glaciers-and-climate/southern-annular-mode/), [Semi-Annual Oscillation](https://webspace.science.uu.nl/~broek112/home.php_files/Publications_MvdB/2000b_VanDenBroeke_IJC.pdf), and [Zonal Wave 3](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004GL020365). By accounting for both internal climate variability and external forcings like solar radiation, I aim to more precisely capture how sea ice responds to the atmosphere — or perhaps how it helps drive it.
 
-For example, when we look at the annual cycle of Antarctic sea ice averaged over space (bottom) the day when the ice begins to retreat (melt~September) and advance (freeze~February) appears coherent. 
+The image below shows how Antarctic sea ice extent follows a broadly coherent annual cycle when averaged across the entire region. Retreat (around September) and advance (around February) appear sharply defined.
 
 ![](/images/AGU_nsidc_sie_cpolar.png)
 
-However, when we look at the timing of Advance (left) and Retreat (right), we can see that they are not homogenous over space nor time, especially timing of retreat. 
+But spatially and temporally, this timing is far from uniform — especially for retreat. We can see also, how the timing of freeze and melt of the ice directly affect how long the ocean is covered by ice, whic is critical to the climate system. 
 
 | Advance | Retreat | Duration |
 |:--:|:--:|:--:|
 | ![](/images/Advance.gif) | ![](/images/Retreat.gif) | ![](/images/Duration.gif) |
 
+This work contributes to better models of sea ice behavior — especially those that account for daily to sub-seasonal variability — and provides a framework for understanding phase as a driver of broader sea ice trends.
 
 Sea Ice Thickness 
 ======
