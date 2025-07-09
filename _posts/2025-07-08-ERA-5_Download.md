@@ -26,7 +26,8 @@ Go to the dataset **ERA5 hourly data on single levels from 1940 to present** and
   - `10m_u_component_of_wind`  
   - `10m_v_component_of_wind`
 - **Years:** Start with `1979` (full loop through 2025 shown below)
-- **Months, Days, and Hours:** Select *all*
+- **Months and Days:** Select *all* 
+- **Hours** `12:00`  -- most representative for the day 
 - **Geographical Boundaries:**  
   - North: `-50`  
   - West: `-180`  
