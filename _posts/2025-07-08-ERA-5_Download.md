@@ -46,59 +46,58 @@ Below is an example script using the CDS API to download data from 1979 to 2024.
 
 ```python
 import cdsapi
-client = cdsapi.Client()
+from datetime import datetime, timedelta
+from concurrent.futures import ThreadPoolExecutor
+import os
 
-dataset = "reanalysis-era5-single-levels"
-request = {
-    "product_type": ["reanalysis"],
-    "variable": [
-        "10m_u_component_of_wind",
-        "10m_v_component_of_wind"
-    ],
-    "year": ["1979"],
-    "month": [
-        "01", "02", "03",
-        "04", "05", "06",
-        "07", "08", "09",
-        "10", "11", "12"
-    ],
-    "day": [
-        "01", "02", "03",
-        "04", "05", "06",
-        "07", "08", "09",
-        "10", "11", "12",
-        "13", "14", "15",
-        "16", "17", "18",
-        "19", "20", "21",
-        "22", "23", "24",
-        "25", "26", "27",
-        "28", "29", "30",
-        "31"
-    ],
-    "time": [
-        "00:00", "01:00", "02:00",
-        "03:00", "04:00", "05:00",
-        "06:00", "07:00", "08:00",
-        "09:00", "10:00", "11:00",
-        "12:00", "13:00", "14:00",
-        "15:00", "16:00", "17:00",
-        "18:00", "19:00", "20:00",
-        "21:00", "22:00", "23:00"
-    ],
-    "data_format": "netcdf",
-    "download_format": "unarchived",
-    "area": [-50, -180, -90, 180]
-}
-## Here we just copy from below and add a for loop for each year:
+# Function to download ERA5 data for a specific day
+def download_day(date_str):
+    client = cdsapi.Client()
 
-for year in range(1979, 2025):
-    req = request.copy()
-    req["year"] = [str(year)] 
+    year = date_str[:4] # breaking up the string
+    month = date_str[4:6]
+    day = date_str[6:8]
 
-    out_fname = f"era5_10m_wind_{year}.nc"
-    print(f"→ requesting {year}, saving to {out_fname}")
-    client.retrieve(dataset, req, out_fname)
-    print(f"  ✔ done {out_fname}")
+    # Define the folder and filename
+    output_dir = os.path.join("/user/geog/falejandraperez/sea-ice-phase/data/Reanalysis_ERA5", year)   # e.g., data/1985
+    os.makedirs(output_dir, exist_ok=True)   # Create folder if it doesn't exist
+
+    filename = os.path.join(output_dir, f"era5_wind_{date_str}_12UTC.nc")
+
+    print(f"→ Downloading {filename}")
+
+    # Submit request to CDS API
+    client.retrieve(
+        "reanalysis-era5-single-levels",
+        {
+            "product_type": "reanalysis",
+            "variable": ["10m_u_component_of_wind", "10m_v_component_of_wind"],
+            "year": year,
+            "month": month,
+            "day": day,
+            "time": ["12:00"],
+            "data_format": "netcdf",
+            "area": [-50, -180, -90, 180]
+        },
+        filename
+    )
+
+    print(f"  ✔ Done: {filename}")
+
+# Generate list of all days from Jan 1, 1979 to Dec 31, 2024
+start_date = datetime(1979, 1, 1)
+end_date = datetime(2024, 12, 31)
+
+date_list = []
+current_date = start_date
+while current_date <= end_date:
+    date_list.append(current_date.strftime("%Y%m%d"))
+    current_date += timedelta(days=1)
+
+# Use a thread pool to download in parallel (adjust max_workers if needed)
+with ThreadPoolExecutor(max_workers=4) as executor:
+    executor.map(download_day, date_list)
+
 ```
 ### Step 3: Running the Script as a Batch Job or in the Background
 
