@@ -59,7 +59,7 @@ def download_day(date_str):
     day = date_str[6:8]
 
     # Define the folder and filename
-    output_dir = os.path.join("/user/geog/falejandraperez/sea-ice-phase/data/Reanalysis_ERA5", year)   # e.g., data/1985
+    output_dir = os.path.join("data", year)  # e.g., data/1985
     os.makedirs(output_dir, exist_ok=True)   # Create folder if it doesn't exist
 
     filename = os.path.join(output_dir, f"era5_wind_{date_str}_12UTC.nc")
