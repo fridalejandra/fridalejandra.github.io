@@ -15,7 +15,7 @@ I’m Frida — a Ph.D. candidate in Geography at UCLA, where I study polar clim
 ![](/images/icy.JPEG){: .align-left width="300px"}
 
 
-As a graduate student, I’m also deeply involved in teaching. Being a first-generation immigrant and college student, academia wasn’t always familiar territory. But through the support of mentors and the curiosity sparked by coursework, I’ve grown committed to bridging the gap between research and education. I hope to inspire others — especially those from underrepresented backgrounds — to see themselves in science and pursue research that excites them.
+As a graduate student, I’m also deeply involved in teaching. Being a first-generation immigrant and college student, academia wasn’t always familiar territory. But through the support of mentors and the curiosity sparked by coursework, I’ve grown committed to bridging the gap between research and education. I hope to inspire others, to see themselves in science and pursue research that excites them.
 
 
 Antarctic Sea Ice Phase 
@@ -26,13 +26,13 @@ The image below shows how Antarctic sea ice extent follows a broadly coherent an
 
 ![](/images/AGU_nsidc_sie_cpolar.png)
 
-But spatially and temporally, this timing is far from uniform — especially for retreat. We can see also, how the timing of freeze and melt of the ice directly affect how long the ocean is covered by ice, whic is critical to the climate system. 
+But spatially and temporally, this timing is far from uniform, especially for retreat. We can see also, how the timing of freeze and melt of the ice directly affect how long the ocean is covered by ice, whic is critical to the climate system. 
 
 | Advance | Retreat | Duration |
 |:--:|:--:|:--:|
 | ![](/images/Advance.gif) | ![](/images/Retreat.gif) | ![](/images/Duration.gif) |
 
-This work contributes to better models of sea ice behavior — especially those that account for daily to sub-seasonal variability — and provides a framework for understanding phase as a driver of broader sea ice trends.
+This work contributes to better models of sea ice behavior, especially those that account for daily to sub-seasonal variability, and provides a framework for understanding phase as a driver of broader sea ice trends.
 
 Sea Ice Thickness 
 ======
