@@ -45,7 +45,7 @@ Circumpolar maps show the persistence of APAC residual variability by season. Re
 
 ### Extended Fig. 3 — Winter (JJA) sea ice concentration variability
 
-![JJA standard deviation of sea ice concentration](assets/figures/persistence/std_SIC_JJA_monthly_cartopy_poster.png)
+![JJA standard deviation of sea ice concentration]({{ "/assets/figures/persistence/std_SIC_JJA_monthly_cartopy_poster.png" | relative_url }})
 
 **Description.**  
 Austral winter (JJA) sea ice concentration variability highlights regions where dynamic forcing contributes most strongly to short-timescale fluctuations.
