@@ -26,26 +26,35 @@ This work investigates whether persistent daily sea ice variability provides a p
 
 ![Comparison of sea ice departures under TAC, IAC, and APAC reference frames](/images/figures/frames/Fig2_SIE_departures_TAC_IAC_APAC.png)
 
+Daily pan-Antarctic sea ice extent (SIE) departures relative to a traditional annual cycle (TAC), an invariant annual cycle (IAC), and an amplitude–phase adjusted annual cycle (APAC) illustrate how interannual shifts in the timing of advance and retreat project onto apparent daily anomalies, with APAC explicitly adjusting both the phase and amplitude of the seasonal cycle to reduce phase-aliasing during periods of rapid seasonal change.
+
 ### Extended Fig. 2 — Persistence of APAC residual variability
 
 ![Polar maps of APAC residual persistence](/images/figures/persistence/Figure1b_polar_APAC_residuals_faceted.png)
+
+Polar plots show the seasonal evolution of APAC residual persistence by sector, where the angular coordinate represents time of year and radial distance denotes the characteristic duration of consecutive daily anomalies, revealing strong seasonal and regional contrasts in the persistence of subseasonal sea ice variability.
 
 ### Extended Fig. 3 — Winter (JJA) sea ice concentration variability
 
 ![JJA standard deviation of sea ice concentration](/images/figures/persistence/std_SIC_JJA_monthly_cartopy_poster.png)
 
+The standard deviation of daily sea ice concentration during austral winter (JJA) shows enhanced variability along the marginal ice zone, indicating strong short-timescale fluctuations during the period of maximum ice extent.
 ### Extended Fig. 4 — Spring (SON) sea ice concentration variability
 
 ![SON standard deviation of sea ice concentration](/images/figures/persistence/std_SIC_SON_monthly_cartopy_poster.png)
 
+Spring (SON) sea ice concentration variability increases along the retreating ice edge, reflecting heightened sensitivity during the transition from winter growth to seasonal retreat.
 ### Extended Fig. 5 — Summer (DJF) sea ice concentration variability
 
 ![DJF standard deviation of sea ice concentration](/images/figures/persistence/std_SIC_DJF_monthly_cartopy_poster.png)
+
+Austral summer (DJF) variability is spatially heterogeneous and concentrated near the ice margin, consistent with localized melt and retreat processes dominating short-timescale changes.
 
 ### Extended Fig. 6 — Autumn (MAM) sea ice concentration variability
 
 ![MAM standard deviation of sea ice concentration](/images/figures/persistence/std_SIC_MAM_monthly_cartopy_poster.png)
 
+Autumn (MAM) variability marks the onset of seasonal advance, with increasing spatial coherence in concentration variability as the ice pack begins to expand.
 ### Extended Fig. 7 — Seasonal reference frames in 2016
 
 ![TAC vs APAC, all sectors (2016)](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2016.png)
