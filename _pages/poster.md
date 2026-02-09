@@ -22,74 +22,48 @@ To account for interannual differences in seasonal timing and amplitude, we appl
 This work investigates whether persistent daily sea ice variability provides a pathway through which short-timescale atmospheric forcing accumulates to influence seasonal advance, retreat, and the phase of the Antarctic sea ice cycle.
 
 ## Extended Figures
-
-
 ### Extended Fig. 1 — Seasonal reference frames (TAC vs IAC vs APAC)
 
-![Comparison of sea ice departures under TAC, IAC, and APAC reference frames](assets/figures/frames/Fig2_SIE_departures_TAC_IAC_APAC.png)
-
-**Description.**  
-Daily sea ice departures are shown relative to a traditional annual cycle (TAC), an invariant annual cycle (IAC), and the amplitude–phase adjusted annual cycle (APAC). The APAC framework more effectively isolates subseasonal variability by accounting for interannual differences in seasonal timing and amplitude.
-
----
+![Comparison of sea ice departures under TAC, IAC, and APAC reference frames](/images/figures/frames/Fig2_SIE_departures_TAC_IAC_APAC.png)
 
 ### Extended Fig. 2 — Persistence of APAC residual variability
 
-![Polar maps of APAC residual persistence](assets/figures/persistence/Figure1b_polar_APAC_residuals_faceted.png)
-
-**Description.**  
-Circumpolar maps show the persistence of APAC residual variability by season. Regions of enhanced persistence indicate areas where daily anomalies tend to cluster over multi-day periods, suggesting stronger memory in the sea ice response.
-
----
+![Polar maps of APAC residual persistence](/images/figures/persistence/Figure1b_polar_APAC_residuals_faceted.png)
 
 ### Extended Fig. 3 — Winter (JJA) sea ice concentration variability
 
-![JJA standard deviation of sea ice concentration]({{ "/assets/figures/persistence/std_SIC_JJA_monthly_cartopy_poster.png" | relative_url }})
-
-**Description.**  
-Austral winter (JJA) sea ice concentration variability highlights regions where dynamic forcing contributes most strongly to short-timescale fluctuations.
+![JJA standard deviation of sea ice concentration](/images/figures/persistence/std_SIC_JJA_monthly_cartopy_poster.png)
 
 ### Extended Fig. 4 — Spring (SON) sea ice concentration variability
 
-![SON standard deviation of sea ice concentration](assets/figures/persistence/std_SIC_SON_monthly_cartopy_poster.png)
-
-**Description.**  
-Springtime (SON) variability reflects the transition from winter growth to summer retreat, with enhanced variability along the marginal ice zone.
+![SON standard deviation of sea ice concentration](/images/figures/persistence/std_SIC_SON_monthly_cartopy_poster.png)
 
 ### Extended Fig. 5 — Summer (DJF) sea ice concentration variability
 
-![DJF standard deviation of sea ice concentration](assets/figures/persistence/std_SIC_DJF_monthly_cartopy_poster.png)
-
-**Description.**  
-Austral summer (DJF) sea ice concentration variability is dominated by localized retreat and melt processes, resulting in more spatially heterogeneous patterns.
+![DJF standard deviation of sea ice concentration](/images/figures/persistence/std_SIC_DJF_monthly_cartopy_poster.png)
 
 ### Extended Fig. 6 — Autumn (MAM) sea ice concentration variability
 
-![MAM standard deviation of sea ice concentration](assets/figures/persistence/std_SIC_MAM_monthly_cartopy_poster.png)
-
-**Description.**  
-Autumn (MAM) variability marks the onset of seasonal advance, with growing sensitivity to atmospheric forcing as the ice cover expands.
+![MAM standard deviation of sea ice concentration](/images/figures/persistence/std_SIC_MAM_monthly_cartopy_poster.png)
 
 ### Extended Fig. 7 — Seasonal reference frames in 2016
 
-![TAC vs APAC, all sectors](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2016.png)
+![TAC vs APAC, all sectors (2016)](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2016.png)
 
-![IAC vs APAC, faceted](/images/figures/frames/IAC_APAC_faceted_2016.png)
-**Description.**
+![IAC vs APAC, faceted by sector (2016)](/images/figures/frames/IAC_APAC_faceted_2016.png)
 
 ### Extended Fig. 8 — Seasonal reference frames in 2022
 
-![TAC vs APAC, all sectors](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2022.png)
+![TAC vs APAC, all sectors (2022)](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2022.png)
 
-![IAC vs APAC, faceted](/images/figures/frames/IAC_APAC_faceted_2022.png)
-**Description.**
+![IAC vs APAC, faceted by sector (2022)](/images/figures/frames/IAC_APAC_faceted_2022.png)
 
 ### Extended Fig. 9 — Seasonal reference frames in 2023
 
-![TAC vs APAC, all sectors](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2023.png)
+![TAC vs APAC, all sectors (2023)](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2023.png)
 
-![IAC vs APAC, faceted](/images/figures/frames/IAC_APAC_faceted_2023.png)
-**Description.**
+![IAC vs APAC, faceted by sector (2023)](/images/figures/frames/IAC_APAC_faceted_2023.png)
+
 ---
 ## Code & Data
 
