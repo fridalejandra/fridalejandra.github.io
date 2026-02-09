@@ -61,11 +61,15 @@ Autumn (MAM) variability marks the onset of seasonal advance, with increasing sp
 
 ![IAC vs APAC, faceted by sector (2016)](/images/figures/frames/IAC_APAC_faceted_2016.png)
 
+Daily sea ice departures in 2016 are shown under fixed (TAC) and evolving (IAC, APAC) seasonal reference frames, illustrating how differences in seasonal phase and amplitude affect the representation of daily anomalies across sectors.
+
 ### Extended Fig. 8 — Seasonal reference frames in 2022
 
 ![TAC vs APAC, all sectors (2022)](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2022.png)
 
 ![IAC vs APAC, faceted by sector (2022)](/images/figures/frames/IAC_APAC_faceted_2022.png)
+
+For 2022, evolving reference frames highlight coherent daily departures that are partially obscured under a fixed seasonal baseline during the development of anomalously low Antarctic sea ice.
 
 ### Extended Fig. 9 — Seasonal reference frames in 2023
 
@@ -73,6 +77,7 @@ Autumn (MAM) variability marks the onset of seasonal advance, with increasing sp
 
 ![IAC vs APAC, faceted by sector (2023)](/images/figures/frames/IAC_APAC_faceted_2023.png)
 
+n 2023, departures relative to APAC show patterns similar to 2022 but with greater magnitude and spatial coherence across multiple sectors.
 ---
 ## Code & Data
 
