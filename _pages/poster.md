@@ -12,17 +12,66 @@ header:
 
 ---
 ## Background
-Antarctic sea ice exhibits substantial variability on daily timescales, driven by short-lived atmospheric forcing1,2, superimposed on a strong seasonal cycle.
 
-Daily variability is defined here as departures from an evolving seasonal reference frame, rather than from a fixed climatology (TAC), allowing day-to-day fluctuations to be distinguished from smooth seasonal modulation.
+Antarctic sea ice exhibits substantial variability on daily timescales, driven by short-lived atmospheric forcing¹˒² superimposed on a strong seasonal cycle.
 
-We use an amplitude–phase adjusted annual cycle3 (APAC) to account for interannual differences in seasonal timing and amplitude, isolating daily departures relative to each year’s evolving seasonal background.
+Here, daily variability is defined as departures from an *evolving seasonal reference frame*, rather than from a fixed climatology (traditional annual cycle, TAC). This framework allows day-to-day fluctuations to be distinguished from smooth seasonal modulation.
 
-This work investigates whether persistent daily sea ice variability provides a pathway through which short-timescale atmospheric forcing accumulates to shape seasonal advance, retreat, and the phase of the Antarctic sea ice cycle.
+To account for interannual differences in seasonal timing and amplitude, we apply an *amplitude–phase adjusted annual cycle*³ (APAC). This approach isolates daily departures relative to each year’s evolving seasonal background, rather than conflating subseasonal variability with changes in the seasonal mean.
+
+This work investigates whether persistent daily sea ice variability provides a pathway through which short-timescale atmospheric forcing accumulates to influence seasonal advance, retreat, and the phase of the Antarctic sea ice cycle.
+
 ## Extended Figures
-### Reference Frames
-### Seasonal Structure of Persistence
-### Atmosphere-Sea Ice Coupling
+
+The following figures provide additional context and diagnostics that support the main results, including comparisons between fixed and evolving seasonal reference frames, spatial patterns of variability, and atmospheric context.
+
+### Extended Fig. 1 — Seasonal reference frames (TAC vs IAC vs APAC)
+
+![Comparison of sea ice departures under TAC, IAC, and APAC reference frames](assets/figures/frames/Fig2_SIE_departures_TAC_IAC_APAC.png)
+
+**Description.**  
+Daily sea ice departures are shown relative to a traditional annual cycle (TAC), an invariant annual cycle (IAC), and the amplitude–phase adjusted annual cycle (APAC). The APAC framework more effectively isolates subseasonal variability by accounting for interannual differences in seasonal timing and amplitude.
+
+---
+
+### Extended Fig. 2 — Persistence of APAC residual variability
+
+![Polar maps of APAC residual persistence](assets/figures/persistence/Figure1b_polar_APAC_residuals_faceted.png)
+
+**Description.**  
+Circumpolar maps show the persistence of APAC residual variability by season. Regions of enhanced persistence indicate areas where daily anomalies tend to cluster over multi-day periods, suggesting stronger memory in the sea ice response.
+
+---
+
+### Extended Fig. 3 — Winter (JJA) sea ice concentration variability
+
+![JJA standard deviation of sea ice concentration](assets/figures/persistence/std_SIC_JJA_monthly_cartopy_poster.png)
+
+**Description.**  
+Austral winter (JJA) sea ice concentration variability highlights regions where dynamic forcing contributes most strongly to short-timescale fluctuations.
+
+### Extended Fig. 4 — Spring (SON) sea ice concentration variability
+
+![SON standard deviation of sea ice concentration](assets/figures/persistence/std_SIC_SON_monthly_cartopy_poster.png)
+
+**Description.**  
+Springtime (SON) variability reflects the transition from winter growth to summer retreat, with enhanced variability along the marginal ice zone.
+
+### Extended Fig. 5 — Summer (DJF) sea ice concentration variability
+
+![DJF standard deviation of sea ice concentration](assets/figures/persistence/std_SIC_DJF_monthly_cartopy_poster.png)
+
+**Description.**  
+Austral summer (DJF) sea ice concentration variability is dominated by localized retreat and melt processes, resulting in more spatially heterogeneous patterns.
+
+### Extended Fig. 6 — Autumn (MAM) sea ice concentration variability
+
+![MAM standard deviation of sea ice concentration](assets/figures/persistence/std_SIC_MAM_monthly_cartopy_poster.png)
+
+**Description.**  
+Autumn (MAM) variability marks the onset of seasonal advance, with growing sensitivity to atmospheric forcing as the ice cover expands.
+
+
 ---
 ## Code & Data
 
