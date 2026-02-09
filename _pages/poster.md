@@ -23,7 +23,6 @@ This work investigates whether persistent daily sea ice variability provides a p
 
 ## Extended Figures
 
-The following figures provide additional context and diagnostics that support the main results, including comparisons between fixed and evolving seasonal reference frames, spatial patterns of variability, and atmospheric context.
 
 ### Extended Fig. 1 — Seasonal reference frames (TAC vs IAC vs APAC)
 
@@ -71,7 +70,26 @@ Austral summer (DJF) sea ice concentration variability is dominated by localized
 **Description.**  
 Autumn (MAM) variability marks the onset of seasonal advance, with growing sensitivity to atmospheric forcing as the ice cover expands.
 
+### Extended Fig. 7 — Seasonal reference frames in 2016
 
+![TAC vs APAC, all sectors](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2016.png)
+
+![IAC vs APAC, faceted](/images/figures/frames/IAC_APAC_faceted_2016.png)
+**Description.**
+
+### Extended Fig. 8 — Seasonal reference frames in 2022
+
+![TAC vs APAC, all sectors](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2022.png)
+
+![IAC vs APAC, faceted](/images/figures/frames/IAC_APAC_faceted_2022.png)
+**Description.**
+
+### Extended Fig. 9 — Seasonal reference frames in 2023
+
+![TAC vs APAC, all sectors](/images/figures/frames/Fig_TAC_vs_APAC_AllSectors_2023.png)
+
+![IAC vs APAC, faceted](/images/figures/frames/IAC_APAC_faceted_2023.png)
+**Description.**
 ---
 ## Code & Data
 
