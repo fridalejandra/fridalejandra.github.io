@@ -18,7 +18,7 @@ Two principles guide my work: **continuity** (near days inform near days) and **
 
 As a graduate student, I'm also deeply involved in teaching. Being a first-generation immigrant and college student, academia wasn't always familiar territory. But through the support of mentors and the curiosity sparked by coursework, I've grown committed to bridging the gap between research and education. I hope to inspire others, to see themselves in science and pursue research that excites them.
 
-
+ 
 Antarctic Sea Ice Phase 
 ======
 My current work focuses on the phase of Antarctic sea ice — the time it advances and retreats — using daily sea ice data from 1979 to present. I investigate how this timing is influenced by large-scale atmospheric patterns like the [Southern Annular Mode](https://www.antarcticglaciers.org/glaciers-and-climate/southern-annular-mode/), [Semi-Annual Oscillation](https://webspace.science.uu.nl/~broek112/home.php_files/Publications_MvdB/2000b_VanDenBroeke_IJC.pdf), and [Zonal Wave 3](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004GL020365). By accounting for both internal climate variability and external forcings like solar radiation, I aim to more precisely capture how sea ice responds to the atmosphere — or perhaps how it helps drive it.
