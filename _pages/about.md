@@ -10,12 +10,13 @@ redirect_from:
 
 {% include base_path %} 
 
-I’m Frida — a Ph.D. candidate in Geography at UCLA, where I study polar climates with a focus on Antarctic sea ice. My research explores the physical processes behind sea ice variability, particularly the seasonal cycles of sea ice advance and retreat. I use statistics and remote sensing to better understand how these cycles are shaped by both external (e.g., solar forcing) and internal (e.g., atmospheric circulation) influences — with the broader goal of improving predictions of future climate behavior.
+I'm Frida — a Ph.D. candidate in Geography at UCLA, where I study polar climates with a focus on Antarctic sea ice. My research explores the physical processes behind sea ice variability, particularly the seasonal cycles of sea ice advance and retreat. I use statistics and remote sensing to understand how these cycles are shaped by external (e.g., solar forcing) and internal (e.g., atmospheric circulation) influences.
+
+Two principles guide my work: **continuity** (near days inform near days) and **decomposition** (breaking the cycle into its components). Rather than treating sea ice as a single variable, I decompose it into components—*when* does ice advance and retreat, *by how much*, and *what drives these changes?*—to isolate mechanisms behind recent shifts.
 
 ![](/images/icy.JPEG){: .align-left width="300px"}
 
-
-As a graduate student, I’m also deeply involved in teaching. Being a first-generation immigrant and college student, academia wasn’t always familiar territory. But through the support of mentors and the curiosity sparked by coursework, I’ve grown committed to bridging the gap between research and education. I hope to inspire others, to see themselves in science and pursue research that excites them.
+As a graduate student, I'm also deeply involved in teaching. Being a first-generation immigrant and college student, academia wasn't always familiar territory. But through the support of mentors and the curiosity sparked by coursework, I've grown committed to bridging the gap between research and education. I hope to inspire others, to see themselves in science and pursue research that excites them.
 
 
 Antarctic Sea Ice Phase 
@@ -26,7 +27,7 @@ The image below shows how Antarctic sea ice extent follows a broadly coherent an
 
 ![](/images/AGU_nsidc_sie_cpolar.png)
 
-But spatially and temporally, this timing is far from uniform, especially for retreat. We can see also, how the timing of freeze and melt of the ice directly affect how long the ocean is covered by ice, whic is critical to the climate system. 
+But spatially and temporally, this timing is far from uniform, especially for retreat. We can see also, how the timing of freeze and melt of the ice directly affect how long the ocean is covered by ice, which is critical to the climate system. 
 
 | Advance | Retreat | Duration |
 |:--:|:--:|:--:|
