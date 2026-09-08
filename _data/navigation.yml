@@ -1,29 +1,18 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order, and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-
 main:
-  - title: "CV"
-    url: /files/PerezFrida_CV.pdf
+  - title: "Home"
+    url: /
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Visualizations"
+    url: /visualizations/
 
   - title: "Publications"
-    url: https://scholar.google.com/citations?user=dWpgl-sAAAAJ&hl=en&scioq=frida+perez+antarctica+
-
-#  - title: "Talks"
-#    url: /talks/
+    url: https://scholar.google.com/citations?user=dWpql-sAAAAJ&hl=en&scioq=frida+perez+antarctica
 
   - title: "Teaching"
     url: /teaching/
-
-  - title: Machine Learning
-    url: /ml/
-
-
-  - title: Atmosphere
-    url: /atmospheric-data/
-
 
 
 
