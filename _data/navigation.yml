@@ -5,9 +5,6 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Visualizations"
-    url: /visualizations/
-
   - title: "Publications"
     url: https://scholar.google.com/citations?user=dWpgl-sAAAAJ&hl=en
 
